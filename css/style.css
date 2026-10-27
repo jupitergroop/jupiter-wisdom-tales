@@ -412,7 +412,7 @@ dialog::backdrop {
 .showcase-book-card img {
   width: 100%;
   aspect-ratio: 2 / 3;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 6px;
   margin-bottom: 8px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
@@ -1592,9 +1592,12 @@ html, body {
 
 @media (max-width: 480px) {
   .books-grid,
-  .metrics-strip,
-  .hero-showcase__pair {
+  .metrics-strip {
     grid-template-columns: 1fr;
+  }
+  .hero-showcase__pair {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
   .header-actions .btn {
     padding: 8px 12px;

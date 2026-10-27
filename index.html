@@ -14,7 +14,7 @@
   <link rel="canonical" href="https://jupitergroop.github.io/jupiter-wisdom-tales/">
   <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
   <link rel="apple-touch-icon" href="img/favicon.svg">
-  <link rel="preload" as="image" href="img/covers/b1_fam.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="img/covers/b1_fam.jpg?v=20261027v4" fetchpriority="high">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
@@ -25,7 +25,7 @@
   <meta property="og:image" content="https://jupiter-wisdom-tales.com/img/og-image.jpg">
   <meta property="og:locale" content="en_US">
 
-  <link rel="stylesheet" href="css/style.css?v=20261027f">
+  <link rel="stylesheet" href="css/style.css?v=20261027v4">
   <link rel="stylesheet" href="css/ai-consultant.css?v=20261027f">
 
   <!-- Schema.org JSON-LD: Organization + BookSeries + Person + FAQPage -->
@@ -184,27 +184,37 @@
             </div>
           </div>
 
-          <!-- Right Showcase of Paired Editions (Book I) -->
+          <!-- Right Showcase of 4 Distinct Books from the 16-Book Collection -->
           <div class="hero-showcase">
             <div class="hero-showcase__top">
-              <span>✦ Book I, two editions of each tale</span>
+              <span>✦ 16 Illustrated Fables (32 Editions: 6+ &amp; 12+)</span>
               <span>Click any cover to read online</span>
             </div>
             <div class="hero-showcase__pair">
               <div class="showcase-book-card" data-open-reader="1" data-initial-tab="kids">
-                <span class="showcase-book-card__tag showcase-book-card__tag--fam">Edition 6+ for Family</span>
-                <img src="img/covers/b1_fam.jpg" alt="Book I: The Crane and the Heron, Family Read-Aloud Edition (Ages 6+)" width="320" height="480" fetchpriority="high">
-                <div class="showcase-book-card__caption">Lyrical story with 5 paintings, heartfelt questions for children, and the “Three Roads” game ($14.99 / $29.99)</div>
+                <span class="showcase-book-card__tag showcase-book-card__tag--fam">Book I • 6+ Family</span>
+                <img src="img/covers/b1_fam.jpg?v=20261027v4" alt="Book I: The Crane and the Heron, Family Read-Aloud Edition (Ages 6+)" width="320" height="480" fetchpriority="high">
+                <div class="showcase-book-card__caption"><strong>Book I: The Crane &amp; The Heron</strong> — Speaking kindly &amp; deciding together ($14.99 / $29.99)</div>
               </div>
-              <div class="showcase-book-card" data-open-reader="1" data-initial-tab="matrix">
-                <span class="showcase-book-card__tag showcase-book-card__tag--mgmt">Edition 12+ for Adults</span>
-                <img src="img/covers/b1_mgmt.jpg" alt="Book I: The Crane and the Heron, Practical Wisdom in Life and Leadership (Ages 12+)" width="320" height="480">
-                <div class="showcase-book-card__caption">Dynamic fable, practical life advice, management tools, and the art of agreement ($14.99 / $29.99)</div>
+              <div class="showcase-book-card" data-open-reader="4" data-initial-tab="matrix">
+                <span class="showcase-book-card__tag showcase-book-card__tag--mgmt">Book IV • 12+ Adults</span>
+                <img src="img/covers/b4_mgmt.jpg?v=20261027v4" alt="Book IV: The Three Little Pigs, Practical Wisdom in Life and Leadership (Ages 12+)" width="320" height="480" fetchpriority="high">
+                <div class="showcase-book-card__caption"><strong>Book IV: The Three Little Pigs</strong> — Solid foundations &amp; risk resilience ($14.99 / $29.99)</div>
+              </div>
+              <div class="showcase-book-card" data-open-reader="2" data-initial-tab="kids">
+                <span class="showcase-book-card__tag showcase-book-card__tag--fam">Book II • 6+ Family</span>
+                <img src="img/covers/b2_fam.jpg?v=20261027v4" alt="Book II: The Ice Hut and the Bark Cottage, Family Read-Aloud Edition (Ages 6+)" width="320" height="480">
+                <div class="showcase-book-card__caption"><strong>Book II: The Ice Hut &amp; Bark Cottage</strong> — Kindness &amp; clear boundaries ($14.99 / $29.99)</div>
+              </div>
+              <div class="showcase-book-card" data-open-reader="8" data-initial-tab="matrix">
+                <span class="showcase-book-card__tag showcase-book-card__tag--mgmt">Book VIII • 12+ Adults</span>
+                <img src="img/covers/b8_mgmt.jpg?v=20261027v4" alt="Book VIII: Prince Ivan &amp; The Grey Wolf, Practical Wisdom in Life and Leadership (Ages 12+)" width="320" height="480">
+                <div class="showcase-book-card__caption"><strong>Book VIII: Prince Ivan &amp; Grey Wolf</strong> — Mentorship, discipline &amp; loyal alliance ($14.99 / $29.99)</div>
               </div>
             </div>
             <div class="hero-showcase__footer">
-              <span>Two standalone illustrated editions for every fable</span>
-              <button type="button" class="btn btn--gold btn--sm" data-open-reader="1" data-initial-tab="story">Open Reading Room →</button>
+              <span>All 16 unique illustrated books available below</span>
+              <a href="#catalog" class="btn btn--gold btn--sm">View All 16 Covers ↓</a>
             </div>
           </div>
         </div>
@@ -335,7 +345,326 @@
         </div>
 
         <div class="books-grid" id="books-grid">
-          <!-- Populated dynamically by js/books-data.js + js/app.js -->
+          <article class="book-card" data-book-num="1">
+            <div class="book-card__cover-wrap" data-open-reader="1" title="Open interactive reading room for Book I: The Crane and The Heron">
+              <span class="book-card__issue-pill">Book I</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b1_fam.jpg?v=20261027v4" alt="Cover of The Crane and The Heron, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">The Crane and The Heron</h3>
+              <div class="book-card__en">A Timeless Northern Woodland Fable on Speaking Kindly and Deciding Together</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Speak from the heart without prickly words: If you want to play or need help, ask warmly instead of testing the other person with riddles. 2. Welcome peace on the very first knock: When a loved one comes to apologize, open the door wide without keeping score.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="1">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book1_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book1_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="2">
+            <div class="book-card__cover-wrap" data-open-reader="2" title="Open interactive reading room for Book II: The Ice Hut and The Bark Cottage">
+              <span class="book-card__issue-pill">Book II</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b2_fam.jpg?v=20261027v4" alt="Cover of The Ice Hut and The Bark Cottage, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">The Ice Hut and The Bark Cottage</h3>
+              <div class="book-card__en">A Classic Woodland Fable on Solid Foundations, Kindness, and Clear Boundaries</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Build on solid bark, not melting ice: In schoolwork, craft, and promises, choose lasting quality over flashy shortcuts. 2. Kindness and firm boundaries walk together: Sharing with friends is wonderful when everyone respects the owner and the rules of the home.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="2">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book2_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book2_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="3">
+            <div class="book-card__cover-wrap" data-open-reader="3" title="Open interactive reading room for Book III: Tops and Bottoms">
+              <span class="book-card__issue-pill">Book III</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b3_fam.jpg?v=20261027v4" alt="Cover of Tops and Bottoms, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">Tops and Bottoms</h3>
+              <div class="book-card__en">A Classic Harvest Fable on Knowledge, Honest Work, and Fair Agreements</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Learn how the world works from root to crown: Curiosity, reading, and craft protect you from foolish mistakes. 2. Share both the effort and the joy: In a loving family and team, whoever helps plant and tend the garden shares the sweetest fruit.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="3">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book3_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book3_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="4">
+            <div class="book-card__cover-wrap" data-open-reader="4" title="Open interactive reading room for Book IV: The Three Little Pigs">
+              <span class="book-card__issue-pill">Book IV</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b4_fam.jpg?v=20261027v4" alt="Cover of The Three Little Pigs, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">The Three Little Pigs</h3>
+              <div class="book-card__en">The Classic 1843 Folk Tale on Building Strong Foundations and Family Unity</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Do important things the stone way: What you build with care in sunny weather protects you when the wind rises. 2. A strong house always has room for family: True strength is measured by how warmly we protect and teach those we love.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="4">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book4_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book4_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="5">
+            <div class="book-card__cover-wrap" data-open-reader="5" title="Open interactive reading room for Book V: The Goose with Golden Eggs">
+              <span class="book-card__issue-pill">Book V</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b5_fam.jpg?v=20261027v4" alt="Cover of The Goose with Golden Eggs, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">The Goose with Golden Eggs</h3>
+              <div class="book-card__en">Aesop's Classic Parable on Patience, Gratitude, and Caring for Living Assets</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Feed the Goose before asking for the Egg: Care for your sleep, health, learning, and loved ones first, and success will follow naturally. 2. Celebrate daily consistency and gratitude: One small honest step every morning builds a treasure chest over a year.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="5">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book5_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book5_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="6">
+            <div class="book-card__cover-wrap" data-open-reader="6" title="Open interactive reading room for Book VI: The Great Market Trade">
+              <span class="book-card__issue-pill">Book VI</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b6_fam.jpg?v=20261027v4" alt="Cover of The Great Market Trade, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">The Great Market Trade</h3>
+              <div class="book-card__en">A Joyful Folk Tale on True Value, Smart Choices, and Peace at Home</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Take the 24-Hour Golden Pause before trading: Never give away something lasting and useful for a five-minute novelty. 2. People come before possessions: A broken cup or a financial mistake is a lesson to solve together, never a reason to hurt a loved one.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="6">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book6_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book6_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="7">
+            <div class="book-card__cover-wrap" data-open-reader="7" title="Open interactive reading room for Book VII: Kolobok: The Rolling Bun">
+              <span class="book-card__issue-pill">Book VII</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b7_fam.jpg?v=20261027v4" alt="Cover of Kolobok: The Rolling Bun, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">Kolobok: The Rolling Bun</h3>
+              <div class="book-card__en">A Classic Woodland Fable on Vigilance, Humility, and Seeing Through Flattery</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Never leave the windowsill without agreement: Always let your parents know where you are going and with whom. 2. Compliments + Secrecy = Step Back!: True friends never ask you to hide things from your family or step onto a 'Fox's nose.'</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="7">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book7_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book7_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="8">
+            <div class="book-card__cover-wrap" data-open-reader="8" title="Open interactive reading room for Book VIII: Prince Ivan & The Grey Wolf">
+              <span class="book-card__issue-pill">Book VIII</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b8_fam.jpg?v=20261027v4" alt="Cover of Prince Ivan & The Grey Wolf, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">Prince Ivan & The Grey Wolf</h3>
+              <div class="book-card__en">An Epic 3-Chapter Tale on Wise Mentorship, Discipline, and Loyal Alliance</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Keep the watch and honour the rule: Self-control at the decisive moment saves three rounds of trouble. 2. Never forget the friend who carried you through the storm: Gratitude and loyalty are the crown of a noble character.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="8">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book8_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book8_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="9">
+            <div class="book-card__cover-wrap" data-open-reader="9" title="Open interactive reading room for Book IX: The Magic Swan Geese">
+              <span class="book-card__issue-pill">Book IX</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b9_fam.jpg?v=20261027v4" alt="Cover of The Magic Swan Geese, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">The Magic Swan Geese</h3>
+              <div class="book-card__en">A Classic Folk Tale on Responsibility, Humility, and Winning Allies in Crisis</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Own your duty and fix mistakes immediately: Courage begins the second you stop making excuses and start acting. 2. Respect every honest helper and simple bread: Gratitude for small kindnesses builds a wall of friends around your family.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="9">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book9_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book9_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="10">
+            <div class="book-card__cover-wrap" data-open-reader="10" title="Open interactive reading room for Book X: Porridge from An Axe">
+              <span class="book-card__issue-pill">Book X</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b10_fam.jpg?v=20261027v4" alt="Cover of Porridge from An Axe, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">Porridge from An Axe</h3>
+              <div class="book-card__en">The Classic 'Stone Soup' Fable on Resourcefulness, Sharing, and Co-Creation</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Be the first to light the hearth: Do not wait for ideal conditions, start with what is in your hands today. 2. Invite everyone to add one small gift: People love and protect what they helped build with their own hands.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="10">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book10_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book10_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="11">
+            <div class="book-card__cover-wrap" data-open-reader="11" title="Open interactive reading room for Book XI: The Fox and The Crane">
+              <span class="book-card__issue-pill">Book XI</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b11_fam.jpg?v=20261027v4" alt="Cover of The Fox and The Crane, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">The Fox and The Crane</h3>
+              <div class="book-card__en">Aesop's Classic Fable on True Hospitality, Empathy, and Win-Win Design</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Look through your guest's eyes: Before offering help or a gift, ask yourself what vessel fits the other person's beak. 2. Teach by kindness, not by payback: Instead of mirroring a mistake with a tall pitcher, show how a true host sets the table.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="11">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book11_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book11_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="12">
+            <div class="book-card__cover-wrap" data-open-reader="12" title="Open interactive reading room for Book XII: The Woodland Teremok">
+              <span class="book-card__issue-pill">Book XII</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b12_fam.jpg?v=20261027v4" alt="Cover of The Woodland Teremok, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">The Woodland Teremok</h3>
+              <div class="book-card__en">A Classic Folk Tale on Open Hearts, Smart Capacity, and Rebuilding Stronger</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Match your roof to the weight it carries: Before taking on a heavy new load, strengthen your schedule, sleep, and skills. 2. If a tower falls, build a better one together: Mistakes are not the end, when friends unite their strengths, the new house stands ten times stronger.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="12">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book12_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book12_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="13">
+            <div class="book-card__cover-wrap" data-open-reader="13" title="Open interactive reading room for Book XIII: The Fisherman & The Golden Fish">
+              <span class="book-card__issue-pill">Book XIII</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b13_fam.jpg?v=20261027v4" alt="Cover of The Fisherman & The Golden Fish, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">The Fisherman & The Golden Fish</h3>
+              <div class="book-card__en">The Classic 1833 Parable on Gratitude, Boundaries, and Knowing When Enough Is Enough</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Gratitude is the guardian of happiness: Before asking for the next wish, thank life and your family for what already shines in your home. 2. True kindness has a firm backbone: Loving someone means having the courage to stop them when anger or greed clouds their eyes.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="13">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book13_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book13_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="14">
+            <div class="book-card__cover-wrap" data-open-reader="14" title="Open interactive reading room for Book XIV: The Emperor'S New Clothes">
+              <span class="book-card__issue-pill">Book XIV</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b14_fam.jpg?v=20261027v4" alt="Cover of The Emperor'S New Clothes, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">The Emperor'S New Clothes</h3>
+              <div class="book-card__en">Hans Christian Andersen's Classic Parable on Truth, Courage, and Reality Audits</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Never be afraid to say 'I want to understand': Asking an honest question is the mark of a strong, independent mind. 2. Trust verified facts over loud crowd pressure: Even if ten people call an empty frame gold, look with your own honest eyes.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="14">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book14_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book14_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="15">
+            <div class="book-card__cover-wrap" data-open-reader="15" title="Open interactive reading room for Book XV: Two Greedy Little Bears">
+              <span class="book-card__issue-pill">Book XV</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b15_fam.jpg?v=20261027v4" alt="Cover of Two Greedy Little Bears, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">Two Greedy Little Bears</h3>
+              <div class="book-card__en">A Classic Folk Tale on Sibling Harmony, Transaction Costs, and the 'Cut-and-Choose' Rule</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Brotherhood is bigger than a millimetre of cheese: Never let a tiny comparison spoil the warmth between family members. 2. Practice the 'One Cuts, One Chooses' rule: Fair rules turn arguments into instant agreement.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="15">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book15_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book15_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="16">
+            <div class="book-card__cover-wrap" data-open-reader="16" title="Open interactive reading room for Book XVI: The Speckled Hen">
+              <span class="book-card__issue-pill">Book XVI</span>
+              <span class="book-card__age-pill">6+ (Family)</span>
+              <img src="img/covers/b16_fam.jpg?v=20261027v4" alt="Cover of The Speckled Hen, Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">The Speckled Hen</h3>
+              <div class="book-card__en">The Ancient Parable on Fragile Vanity, Daily Utility, and Emotional Resilience</div>
+              <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: $14.99 USD | Hardcover: $29.99 USD</div>
+              <div class="book-card__key"><strong>Children &amp; Family Key (Ages 6+):</strong><br>1. Value real daily usefulness over hollow glitter: What nourishes, teaches, and warms your family every day is worth more than a fragile showpiece. 2. Peace in the home is worth more than any broken cup: When a 'mouse's tail' knocks something down, comfort your loved ones first and fix it together.</div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="16">Open Book in Reading Room</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book16_family_en.pdf" target="_blank" rel="noopener">PDF 6+ (Family)</a>
+                  <a href="pdf/book16_mgmt_en.pdf" target="_blank" rel="noopener">PDF 12+ (Adults)</a>
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -368,7 +697,7 @@
           <div class="section-header__super">Fine Bookbinding &amp; Global Editions</div>
           <h2 class="section-header__title">Collector’s “Golden Tome” &amp; Artistic Craftsmanship</h2>
           <p class="section-header__desc">
-            A lasting family heirloom and distinguished diplomatic or executive gift—combining museum-grade print craftsmanship with multilingual literary translation.
+            A lasting family heirloom and distinguished gift that combines museum-grade print craftsmanship with multilingual literary translation.
           </p>
         </div>
 
@@ -380,7 +709,7 @@
               <li><strong>Cloth Spine &amp; Smyth-Sewn Hardcover:</strong> classic thread-sewn book block that opens flat at 180° for effortless evening reading.</li>
               <li><strong>3D Relief Gold Foil Stamping:</strong> sculpted raised gold embossing across the cover emblem, ornamental frames, and illuminated drop caps.</li>
               <li><strong>Warm Parchment-Toned Paper (157 gsm):</strong> heavy archival matte stock paired with full-color ornamental endpapers and a woven silk ribbon marker.</li>
-              <li><strong>Grand Gift Folio Format (84–108 pages):</strong> brings together selected fables and their 2×2 Decision Matrices into a single cabinet volume.</li>
+              <li><strong>Grand Gift Folio Format (84 to 108 pages):</strong> brings together selected fables, evening family questions, and practical adult advice into a single cabinet volume.</li>
             </ul>
           </div>
 
@@ -389,13 +718,13 @@
             <h3 style="font-family:var(--font-serif);font-size:24px;color:#FFFDF9;margin:0 0 12px;">English Originals &amp; Translations into Russian &amp; Mandarin Chinese</h3>
             <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;font-size:14.5px;color:#E6D8B8;">
               <li><strong>Published in English, Translated Globally:</strong> crafted in English for international distribution and translated into <strong>Russian</strong>, <strong>Mandarin Chinese</strong>, and other world languages.</li>
-              <li><strong>Full-Cast Audio Dramas (15–18 minutes per book):</strong> expressive character voices paired with a warm conversational breakdown for family road trips and bedtime listening.</li>
-              <li><strong>Cross-Cultural Literary Bridges:</strong> every volume highlights how classic woodland and European fables resonate with Aesop, Brothers Grimm, and Asian stratagems.</li>
+              <li><strong>Full-Cast Audio Dramas (15 to 18 minutes per book):</strong> expressive character voices paired with a warm conversational reflection for family road trips and bedtime listening.</li>
+              <li><strong>Cross-Cultural Literary Bridges:</strong> every volume highlights how classic woodland and European fables resonate with Aesop, Brothers Grimm, and Eastern wisdom.</li>
             </ul>
           </div>
         </div>
 
-        <h3 style="font-family:var(--font-serif);font-size:22px;color:#F3E5AB;text-align:center;margin:0 0 8px;">Four Visual Traditions Across the 16-Book Series</h3>
+        <h3 style="font-family:var(--font-serif);font-size:22px;color:#F3E5AB;text-align:center;margin:0 0 8px;">Four Visual Traditions Across the Series</h3>
         <div class="presets-grid">
           <div class="preset-card">
             <h4>1. Classic Ornamental Timber &amp; Gold</h4>
@@ -417,141 +746,46 @@
       </div>
     </section>
 
-    <!-- SECTION 6: 18-EXPERT EDITORIAL COUNCIL -->
-    <section class="section" id="council">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-header__super">Editorial &amp; Methodological Board</div>
-          <h2 class="section-header__title">How Every Volume Is Crafted: The 18-Expert Council</h2>
-          <p class="section-header__desc">
-            Each book undergoes a rigorous three-contour review by child educators, literary translators, negotiation strategists, book artists, and international publishing counsel.
-          </p>
-        </div>
-
-        <div class="council-grid">
-          <div class="council-contour">
-            <h3>1. Methodology, Pedagogy &amp; Literary Craft</h3>
-            <ul class="council-list">
-              <li><strong>1. Decision Matrix Methodologist:</strong> verifies orthogonal axes <code>Y</code> and <code>X</code> and ensures the winning choice always sits in <strong>★ Quadrant 4 (Top-Right Corner)</strong>.</li>
-              <li><strong>2. Strategic Management Specialist (DBA):</strong> structures the 4 executive archetypes, 2 strategic traps, and 3 actionable transition steps.</li>
-              <li><strong>3. Child &amp; Family Educator:</strong> designs the 3 evening discussion questions and the interactive “Three Roads” simulator.</li>
-              <li><strong>4. Literary Editor &amp; Folklorist:</strong> preserves authentic proverbs, rhythm, and read-aloud musicality across English, Russian, and Mandarin Chinese editions.</li>
-              <li><strong>5. Audio Drama Director:</strong> checks pacing, cadence, and voice characterization for bedtime and family listening.</li>
-              <li><strong>6. Cross-Cultural Comparative Scholar:</strong> curates parallels across Aesop, Brothers Grimm, Panchatantra, and Eastern classics.</li>
-            </ul>
-          </div>
-
-          <div class="council-contour">
-            <h3>2. Multi-Generational Reader Experience</h3>
-            <ul class="council-list">
-              <li><strong>7. Child Psychologist (Ages 6–10):</strong> ensures emotional warmth, age-appropriate conflict resolution, and zero preachy scolding.</li>
-              <li><strong>8. Intergenerational Family Editor:</strong> ensures the book is equally engaging for parents, grandparents, and young readers.</li>
-              <li><strong>9. Executive Negotiation Advisor:</strong> validates real-world boardroom scenarios and memorable action idioms.</li>
-              <li><strong>10. Partnership &amp; Governance Counsel:</strong> reviews joint-venture, SLA, and boundary-setting frameworks.</li>
-            </ul>
-          </div>
-
-          <div class="council-contour">
-            <h3>3. Book Art, Typography &amp; Global Publishing</h3>
-            <ul class="council-list">
-              <li><strong>11–12. Chief Book Illustrator &amp; Information Designer:</strong> oversee visual continuity across all 80 scenes and 32 2×2 Matrices.</li>
-              <li><strong>13–14. Master Book Designer &amp; Print Technologist:</strong> supervise 6×9 in. and folio layouts, 157 gsm parchment stock, and 3D gold foil stamping.</li>
-              <li><strong>15–16. Curriculum Workbook Editor &amp; Managing Producer:</strong> coordinate complete 16-book libraries and corporate gift sets.</li>
-              <li><strong>17–18. International Copyright &amp; Publishing Counsel:</strong> ensure full Berne Convention protection, ISBN cataloging, and global distribution compliance.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 7: AUTHOR & SERIES CREATOR -->
+    <!-- SECTION 6: WORD FROM THE AUTHOR OF THE SERIES -->
     <section class="section section--alt" id="author">
       <div class="container">
         <div class="author-block">
           <div class="author-portrait-frame">
-            <img src="img/zinaida-portrait.jpg" alt="Zinaida Jupiter, DBA — Author and Creator of the Jupiter Wisdom Tales Series" width="320" height="400" loading="lazy">
+            <img src="img/zinaida-portrait.jpg" alt="Zinaida Jupiter, Author of the Series, Doctor of Business Administration (DBA)" width="320" height="400" loading="lazy">
           </div>
           <div>
-            <div class="eyebrow-badge">Author of the Series, 2×2 Matrix Methodology &amp; Executive Producer</div>
-            <h2 style="font-family:var(--font-serif);font-size:clamp(23px,2.7vw,33px);color:var(--bg-walnut);margin:0 0 12px;">
-              Zinaida Jupiter — Doctor of Business Administration (DBA)
+            <div class="eyebrow-badge">❖ WORD FROM THE AUTHOR OF THE SERIES ❖</div>
+            <h2 style="font-family:var(--font-serif);font-size:clamp(24px,2.8vw,34px);color:var(--bg-walnut);margin:0 0 14px;">
+              Why “Jupiter Wisdom Tales” Were Born
             </h2>
-            <p style="font-family:var(--font-serif);font-style:italic;font-size:17px;color:var(--cinnabar);margin:0 0 16px;">
-              “Every classic folk tale holds two golden keys at once. I wanted to create a book series that a child and an adult open with equal joy in the evening—sparking warm, heartfelt conversations at home while giving leaders a clear two-axis compass for negotiations and governance.”
+            <p style="font-family:var(--font-serif);font-style:italic;font-size:18px;color:var(--cinnabar);line-height:1.55;margin:0 0 16px;">
+              “Have you ever noticed that a true folk tale always holds two keys? The first is for a child: it opens a world where kindness, honesty, and courage overcome vanity and deceit. The second is for an adult: just look closely at the Fox, the Crane, or the Heron, and you immediately recognize familiar negotiation deadlocks, fragile partnerships, and everyday choices.”
             </p>
-            <ul class="author-creds-list">
-              <li><strong>Rooted in Real Family Tradition:</strong> the evening questions and “Three Roads” methodology grew out of Zinaida’s own family reading tradition—raising two children who went on to study physics and international university programs in Shenzhen (China) and Europe/Eurasia.</li>
-              <li><strong>Executive Governance &amp; Negotiation Practice (DBA):</strong> Founder of Jupiter Group LLC and the InKadr educational agency. Extensive experience designing AI and leadership training programs for executive teams managing over a trillion in assets has been distilled into visual 2×2 Decision Matrices.</li>
-              <li><strong>18-Expert Editorial Production:</strong> every book is refined by an 18-specialist council so that the storytelling, child psychology, illustrations, and gold-stamped binding meet collector standards.</li>
-              <li><strong>Published in English &amp; Translated Globally:</strong> created in English for international readers and translated into Russian, Mandarin Chinese, and global languages as a cultural bridge for families and leaders worldwide.</li>
-            </ul>
-            <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:18px;">
-              <button type="button" class="btn btn--primary" data-open-order="Collector's Golden Tome Hardcover ($149.00 USD)">Order Books / Request Corporate Catalog</button>
-              <a href="#interactive-matrix" class="btn btn--outline">Read the Stories &amp; 2×2 Matrices Online</a>
+            <p style="font-size:15.5px;color:var(--ink-primary);line-height:1.7;margin:0 0 14px;">
+              I have always loved evening family reading under a warm lamp. Those quiet fifteen minutes before sleep, when you put your phone aside, open a real illustrated book, and talk with your child about what truly matters: how to tell a true friend from flattery, why a hasty promise is dangerous, and how not to quarrel with someone dear to you out of stubborn pride.<strong>*</strong>
+            </p>
+            <p style="font-size:15.5px;color:var(--ink-primary);line-height:1.7;margin:0 0 14px;">
+              At the same time, in my professional life as a <strong>Doctor of Business Administration (DBA)</strong>, I saw every day how adults face the very same questions of trust, boundaries, and wise agreements. Building skills helps a person walk the path with confidence, while strategy answers the most important question: <strong>where to walk</strong>. And centuries-old folk wisdom preserves the purest, time-tested answers about life’s direction.
+            </p>
+            <p style="font-size:15.5px;color:var(--ink-primary);line-height:1.7;margin:0 0 16px;">
+              Out of a deep love for beauty, family warmth, and clear management tools, this growing library was born. In every volume, we preserved the living music of the classic tale, adorned the pages with museum-grade illustrations, and added gentle conversation prompts for children along with practical life and leadership advice for adults.
+            </p>
+            <div style="font-family:var(--font-serif);font-size:16px;font-weight:700;color:var(--bg-walnut);margin:0 0 14px;">
+              Zinaida Jupiter, Author of the Series, Doctor of Business Administration (DBA)
+            </div>
+            <div style="font-size:13.5px;color:var(--ink-secondary);background:rgba(197,155,39,0.1);border-left:3px solid var(--gold-deep);padding:10px 14px;border-radius:6px;margin-bottom:18px;">
+              <strong>*</strong> These books grew out of a living family tradition of evening reading and conversation, a habit of reflecting together on choices, character, and life’s direction from early childhood.
+            </div>
+            <div style="display:flex;flex-wrap:wrap;gap:12px;">
+              <button type="button" class="btn btn--primary" data-open-order="Collector's Golden Tome Hardcover ($149.00 USD)">Choose &amp; Order a Gift Edition</button>
+              <a href="#interactive-matrix" class="btn btn--outline">Open the Interactive Reading Room</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- SECTION 7.5: EDITIONS & TRANSPARENT USD PRICING TABLE (PAYONEER KYB COMPLIANT) -->
-    <section class="section" id="editions-table">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-header__super">Editions &amp; International Pricing • <time datetime="2026-10">2026 Catalog</time></div>
-          <h2 class="section-header__title">Four Formats &amp; Transparent USD Pricing — For Family Reading, Executive Libraries &amp; Corporate Gifts</h2>
-          <p class="section-header__desc">
-            Available worldwide in Digital (instant PDF/eBook delivery) and Print Hardcover editions via Jupiter Group LLC, Amazon KDP, and international courier fulfillment (DHL / FedEx / UPS).
-          </p>
-        </div>
-
-        <div style="overflow-x:auto;border:2px solid var(--border-ornate);border-radius:14px;background:var(--bg-card);box-shadow:var(--shadow-card);">
-          <table style="width:100%;border-collapse:collapse;min-width:720px;font-size:14.5px;text-align:left;">
-            <thead>
-              <tr style="background:var(--bg-walnut);color:#F3E5AB;">
-                <th style="padding:14px 16px;border-bottom:2px solid var(--gold-deep);">Edition Format</th>
-                <th style="padding:14px 16px;border-bottom:2px solid var(--gold-deep);">Audience</th>
-                <th style="padding:14px 16px;border-bottom:2px solid var(--gold-deep);">What’s Inside</th>
-                <th style="padding:14px 16px;border-bottom:2px solid var(--gold-deep);">Languages Available</th>
-                <th style="padding:14px 16px;border-bottom:2px solid var(--gold-deep);">Price (USD)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr style="border-bottom:1px solid var(--border-ornate);">
-                <td style="padding:14px 16px;font-weight:700;color:var(--bg-walnut);">1. Single Volume — Family Edition (6+) or Executive Edition (12+)</td>
-                <td style="padding:14px 16px;">Children ages 6–10 &amp; Parents (<strong>6+</strong>) or Leaders &amp; Negotiators (<strong>12+</strong>)</td>
-                <td style="padding:14px 16px;">12-page illustrated volume: 5 story scenes, 3 evening questions, “Three Roads” game, and 2×2 Decision Matrix (<strong>★ Quadrant 4</strong>)</td>
-                <td style="padding:14px 16px;">English (Original), Russian translation, Mandarin Chinese translation</td>
-                <td style="padding:14px 16px;font-weight:700;color:var(--cinnabar);">$14.99 USD (Digital PDF/eBook)<br>$29.99 USD (Hardcover Print)</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--border-ornate);background:rgba(197,155,39,0.06);">
-                <td style="padding:14px 16px;font-weight:700;color:var(--bg-walnut);">2. Complete 16-Book Library (All 32 Paired Volumes: 16 Family + 16 Executive)</td>
-                <td style="padding:14px 16px;">Family libraries, schools, founders &amp; executive coaching programs</td>
-                <td style="padding:14px 16px;">All 16 fables in both 6+ Family and 12+ Executive editions (32 volumes total, 80 illustrations, 32 2×2 Decision Matrices)</td>
-                <td style="padding:14px 16px;">English + optional bilingual bundle (Russian / Mandarin Chinese)</td>
-                <td style="padding:14px 16px;font-weight:700;color:var(--cinnabar);">$249.00 USD (Complete Digital Library)<br>$449.00 USD (Complete Print Box Set)</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--border-ornate);">
-                <td style="padding:14px 16px;font-weight:700;color:var(--cinnabar);">3. Collector’s “Golden Tome” Hardcover Folio</td>
-                <td style="padding:14px 16px;">Heirloom family library &amp; VIP executive gift (<strong>6+ / 12+</strong>)</td>
-                <td style="padding:14px 16px;">84–108 pages: selected fables, both Family &amp; 2×2 Executive breakdowns, cloth spine, 3D gold foil embossing, 157 gsm parchment paper, silk ribbon</td>
-                <td style="padding:14px 16px;">English, Russian, or Mandarin Chinese collector editions</td>
-                <td style="padding:14px 16px;font-weight:700;color:var(--cinnabar);">$149.00 USD (per Hardcover Folio in presentation slipcase)</td>
-              </tr>
-              <tr style="background:rgba(138,40,30,0.05);">
-                <td style="padding:14px 16px;font-weight:700;color:var(--bg-walnut);">4. Bespoke Corporate &amp; Diplomatic Gift Print Run (50+ copies)</td>
-                <td style="padding:14px 16px;">Boards of directors, corporate universities, international summits &amp; delegations</td>
-                <td style="padding:14px 16px;">Custom corporate Ex-Libris plate, CEO foreword leaf, bespoke selection of tales &amp; 2×2 Matrices, custom gold stamping die</td>
-                <td style="padding:14px 16px;">English, Russian, Mandarin Chinese (single-language or parallel bilingual)</td>
-                <td style="padding:14px 16px;font-weight:700;color:var(--cinnabar);">From $2,950.00 USD (for 50 custom hardcover copies; corporate invoice)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 8: ORDER BOOKS, DIGITAL LICENSES & CORPORATE PRINT RUNS -->
+    <!-- SECTION 7: ORDER BOOKS, DIGITAL LICENSES & CORPORATE PRINT RUNS -->
     <section class="section" id="order">
       <div class="container">
         <div class="order-layout">
@@ -561,20 +795,24 @@
               Order Digital Editions, Collector Hardcovers, or Custom Corporate Print Runs
             </h2>
             <p style="font-size:16px;color:var(--ink-secondary);margin:0 0 24px;">
-              Submit your order request below—our international publishing desk at <strong>Limited Liability Company “Jupiter Group” (Jupiter Group LLC)</strong> will send your commercial invoice, instant PDF download links, or DHL/FedEx shipping quote within 1 business hour.
+              Submit your order request below and our international publishing desk at <strong>Limited Liability Company “Jupiter Group” (Jupiter Group LLC)</strong> will send your commercial invoice, instant PDF download links, or DHL/FedEx shipping quote within 1 business hour.
             </p>
 
             <div style="display:flex;flex-direction:column;gap:14px;">
               <div style="background:var(--bg-card);border:1.5px solid var(--border-ornate);border-left:4px solid var(--gold-deep);border-radius:10px;padding:16px 20px;">
-                <h3 style="font-family:var(--font-serif);font-size:18px;margin:0 0 4px;color:var(--bg-walnut);">1. Complete 16-Book Library ($249 Digital / $449 Print Set)</h3>
-                <p style="margin:0;font-size:14px;color:var(--ink-secondary);">All 16 fables in both Family (6+) and Executive 2×2 Matrix (12+) editions—available in original English plus official translations into Russian and Mandarin Chinese.</p>
+                <h3 style="font-family:var(--font-serif);font-size:18px;margin:0 0 4px;color:var(--bg-walnut);">1. Single Volume: Family (6+) or Adult Edition (12+) ($14.99 Digital / $29.99 Print)</h3>
+                <p style="margin:0;font-size:14px;color:var(--ink-secondary);">12-page illustrated volume with 5 story scenes, 3 evening family questions, the “Three Roads” game, and practical life and management advice.</p>
+              </div>
+              <div style="background:var(--bg-card);border:1.5px solid var(--border-ornate);border-left:4px solid var(--gold-deep);border-radius:10px;padding:16px 20px;">
+                <h3 style="font-family:var(--font-serif);font-size:18px;margin:0 0 4px;color:var(--bg-walnut);">2. Complete 16-Book Library ($249.00 Digital / $449.00 Print Set)</h3>
+                <p style="margin:0;font-size:14px;color:var(--ink-secondary);">All 16 fables in both Family (6+) and Adult (12+) editions (32 volumes total), available in original English plus official translations into Russian and Mandarin Chinese.</p>
               </div>
               <div style="background:var(--bg-card);border:1.5px solid var(--border-ornate);border-left:4px solid var(--cinnabar);border-radius:10px;padding:16px 20px;">
-                <h3 style="font-family:var(--font-serif);font-size:18px;margin:0 0 4px;color:var(--bg-walnut);">2. Collector’s “Golden Tome” Hardcover ($149.00 USD)</h3>
-                <p style="margin:0;font-size:14px;color:var(--ink-secondary);">Smyth-sewn hardcover with cloth spine, 3D relief gold foil stamping, 157 gsm parchment paper, and silk ribbon marker (84–108 pages).</p>
+                <h3 style="font-family:var(--font-serif);font-size:18px;margin:0 0 4px;color:var(--bg-walnut);">3. Collector’s “Golden Tome” Hardcover ($149.00 USD)</h3>
+                <p style="margin:0;font-size:14px;color:var(--ink-secondary);">Smyth-sewn hardcover with cloth spine, 3D relief gold foil stamping, 157 gsm parchment paper, and silk ribbon marker (84 to 108 pages).</p>
               </div>
               <div style="background:var(--bg-card);border:1.5px solid var(--border-ornate);border-left:4px solid var(--bg-walnut);border-radius:10px;padding:16px 20px;">
-                <h3 style="font-family:var(--font-serif);font-size:18px;margin:0 0 4px;color:var(--bg-walnut);">3. Bespoke Corporate Gift Run &amp; Educational Licensing (From $2,950 USD)</h3>
+                <h3 style="font-family:var(--font-serif);font-size:18px;margin:0 0 4px;color:var(--bg-walnut);">4. Bespoke Corporate Gift Run &amp; Educational Licensing (From $2,950.00 USD)</h3>
                 <p style="margin:0;font-size:14px;color:var(--ink-secondary);">Custom branded print runs (50 to 1,000+ copies) with company Ex-Libris and official B2B invoicing by Jupiter Group LLC (Reg. No. 217940-3310-OOO, TIN 01705202310085).</p>
               </div>
             </div>
@@ -583,7 +821,7 @@
           <!-- Embedded Order Form -->
           <div class="order-form-card">
             <h3 style="font-family:var(--font-serif);font-size:22px;margin:0 0 6px;color:var(--bg-walnut);">Order Books / Request Invoice</h3>
-            <p style="font-size:13.5px;color:var(--ink-muted);margin:0 0 18px;">Response within 1 business hour from our international desk (Mon–Fri, 09:00–20:00 UTC+6).</p>
+            <p style="font-size:13.5px;color:var(--ink-muted);margin:0 0 18px;">Response within 1 business hour from our international desk (Monday to Friday, 09:00 to 20:00 UTC+6).</p>
 
             <form id="order-form" novalidate>
               <div class="form-field">
@@ -604,10 +842,10 @@
               <div class="form-field">
                 <label for="order-edition">Select Edition &amp; Language Package</label>
                 <select id="order-edition" name="edition">
-                  <option value="Complete 16-Book Library ($249 / $449 USD)">Complete 16-Book Library — 32 Volumes ($249 Digital / $449 Print)</option>
+                  <option value="Complete 16-Book Library ($249 / $449 USD)">Complete 16-Book Library: 32 Volumes ($249 Digital / $449 Print)</option>
                   <option value="Collector's Golden Tome Hardcover ($149.00 USD)">Collector’s “Golden Tome” Hardcover Folio ($149.00 USD)</option>
-                  <option value="Single Volume Family 6+ ($14.99 / $29.99 USD)">Single Volume — Family Edition 6+ ($14.99 Digital / $29.99 Print)</option>
-                  <option value="Single Volume Executive 12+ ($14.99 / $29.99 USD)">Single Volume — Executive 2×2 Matrix 12+ ($14.99 Digital / $29.99 Print)</option>
+                  <option value="Single Volume Family 6+ ($14.99 / $29.99 USD)">Single Volume: Family Edition 6+ ($14.99 Digital / $29.99 Print)</option>
+                  <option value="Single Volume Executive 12+ ($14.99 / $29.99 USD)">Single Volume: Adult &amp; Leadership Edition 12+ ($14.99 Digital / $29.99 Print)</option>
                   <option value="Russian or Mandarin Chinese Translation Package">Translated Edition Package (Russian / Mandarin Chinese)</option>
                   <option value="Corporate Gift Print Run (From $2,950 USD)">Bespoke Corporate Gift Print Run with Ex-Libris (From $2,950 USD)</option>
                 </select>
@@ -643,7 +881,7 @@
       </div>
     </section>
 
-    <!-- SECTION 9: FREQUENTLY ASKED QUESTIONS (FAQ) -->
+    <!-- SECTION 8: FREQUENTLY ASKED QUESTIONS (FAQ) -->
     <section class="section section--alt" id="faq">
       <div class="container">
         <div class="section-header">
@@ -653,23 +891,23 @@
 
         <div class="faq-list">
           <details class="faq-item" open>
-            <summary>How do the two editions of each book—Family (6+) and Executive (12+)—differ?</summary>
+            <summary>How do the two editions of each book (Family 6+ and Adult 12+) differ?</summary>
             <p>
-              In the <strong>Family Edition (Ages 6+ “For Parents &amp; Children”)</strong>, readers receive 5 pages of illustrated storytelling, 2 pages of guided evening conversation with the child (3 questions, golden rules of friendship, the “Three Roads A, B, C” game, and a drawing frame), and 2 pages of warm parenting wisdom. In the <strong>Executive Edition (Ages 12+ “Folk Wisdom in Leadership”)</strong>, readers get the complete fable with all its proverbs plus 6 pages of strategic breakdown featuring our two-axis <strong>2×2 Decision Matrix</strong>, real-world negotiation scenarios, and boardroom idioms.
+              In the <strong>Family Edition (Ages 6+ “For Parents &amp; Children”)</strong>, readers receive 5 pages of illustrated storytelling, 2 pages of guided evening conversation with the child (3 questions, golden rules of friendship, the “Three Roads A, B, C” game, and a drawing frame), and 2 pages of warm parenting reflections. In the <strong>Adult &amp; Leadership Edition (Ages 12+ “Folk Wisdom in Leadership”)</strong>, readers get the complete fable with all its proverbs plus 6 pages of practical life advice, negotiation tools, and real-world case scenarios.
             </p>
           </details>
 
           <details class="faq-item">
-            <summary>In what languages are the books available?</summary>
+            <summary>How do fairy tales connect with strategy and skill building?</summary>
             <p>
-              All 16 books of the <em>Jupiter Wisdom Tales</em> series are published originally in <strong>English</strong> for global readers and international platforms (Amazon KDP, IngramSpark, and direct sales on this website), and are officially translated into <strong>Russian</strong>, <strong>Mandarin Chinese</strong>, and other world languages with careful preservation of idioms and cultural parallels.
+              Building skills helps a person walk the path with confidence, while strategy answers the most important question: <strong>where to walk</strong>. Classic folk tales preserve centuries-old human wisdom about direction, trust, boundaries, and long-term choices, helping both children and adults see where each path leads before taking the first step.
             </p>
           </details>
 
           <details class="faq-item">
-            <summary>What is the Two-Axis 2×2 Decision Matrix and why is the winning answer always in the Top-Right Corner?</summary>
+            <summary>In what languages are the books available and will the series grow?</summary>
             <p>
-              Each fable’s core dilemma is mapped across two clear axes: the vertical <strong>Axis Y ↑</strong> (from low to high long-term value or resilience) and the horizontal <strong>Axis X ►</strong> (from pride, impulsiveness, or blurred boundaries to mutual respect, due diligence, and clear rules). The intersection of high values on both axes always forms <strong>★ Quadrant 4 in the Top-Right Corner</strong>—the constructive win-win move of a mature parent and leader.
+              The <em>Jupiter Wisdom Tales</em> collection is a growing library: the first 16 volumes are available now, and new tales are added over time. All books are published in <strong>English</strong> for global readers and are officially translated into <strong>Russian</strong>, <strong>Mandarin Chinese</strong>, and other world languages with careful preservation of idioms and cultural parallels.
             </p>
           </details>
 
@@ -691,26 +929,25 @@
         <div>
           <h4>♃ Jupiter Wisdom Tales</h4>
           <p style="margin:0 0 12px;color:#D5C5A3;">
-            Collector series of 16 illustrated books for family read-alouds (Ages 6+) and 2×2 Strategic Decision Matrices (Ages 12+). Published in English and officially translated into Russian, Mandarin Chinese, and global languages.<br>
-            <strong>Author: Zinaida Jupiter, Doctor of Business Administration (DBA).</strong>
+            Growing collector series of illustrated folk tales with warm evening conversation guides (Ages 6+) and practical life and management advice (Ages 12+). Published in English and officially translated into Russian, Mandarin Chinese, and global languages.<br>
+            <strong>Author of the Series: Zinaida Jupiter, Doctor of Business Administration (DBA).</strong>
           </p>
           <p style="margin:0;color:#F3E5AB;font-weight:700;">
-            Tel.: <a href="tel:+996322254408">+996 (3222) 5-44-08</a> · WhatsApp: <a href="https://wa.me/996555908544" target="_blank" rel="noopener">+996 555 908 544</a><br>
-            E-mail: <a href="mailto:info@jupiter-wisdom-tales.com">info@jupiter-wisdom-tales.com</a> · <a href="mailto:b2b@jupiter-wisdom-tales.com">b2b@jupiter-wisdom-tales.com</a>
+            Tel.: <a href="tel:+996322254408">+996 (3222) 5-44-08</a> | WhatsApp: <a href="https://wa.me/996555908544" target="_blank" rel="noopener">+996 555 908 544</a><br>
+            E-mail: <a href="mailto:info@jupiter-wisdom-tales.com">info@jupiter-wisdom-tales.com</a> | <a href="mailto:b2b@jupiter-wisdom-tales.com">b2b@jupiter-wisdom-tales.com</a>
           </p>
         </div>
 
         <div>
           <h4>Navigation</h4>
           <ul>
-            <li><a href="#philosophy">Series Philosophy &amp; Languages</a></li>
+            <li><a href="#philosophy">Series Philosophy &amp; Strategy</a></li>
             <li><a href="#two-wings">Two Editions: 6+ &amp; 12+</a></li>
-            <li><a href="#catalog">16-Book Catalog &amp; PDFs</a></li>
-            <li><a href="#interactive-matrix">Interactive 2×2 Matrix</a></li>
+            <li><a href="#catalog">Book Catalog &amp; PDFs</a></li>
+            <li><a href="#interactive-matrix">Interactive Reading Room</a></li>
             <li><a href="#golden-tome">Collector’s “Golden Tome” 3D</a></li>
-            <li><a href="#council">18-Expert Editorial Council</a></li>
-            <li><a href="#author">About Zinaida Jupiter, DBA</a></li>
-            <li><a href="#editions-table">USD Pricing &amp; Formats</a></li>
+            <li><a href="#author">Word from the Author</a></li>
+            <li><a href="#order">USD Pricing &amp; Order</a></li>
           </ul>
         </div>
 
@@ -737,7 +974,7 @@
           <p style="margin:0;color:#D5C5A3;font-size:12.8px;line-height:1.55;">
             <strong>Limited Liability Company “Jupiter Group”</strong> (<em>OsOO “Jupiter Group” / Jupiter Group LLC</em>)<br>
             State Reg. No.: <strong>217940-3310-OOO</strong><br>
-            TIN (INN): <strong>01705202310085</strong> · OKPO: <strong>31950675</strong><br>
+            TIN (INN): <strong>01705202310085</strong> | OKPO: <strong>31950675</strong><br>
             Address: 4 A. Borubaeva St., Apt. 21, Osh, 723500, Kyrgyz Republic<br>
             CEO: Vladimir Yuryevich Jupiter<br>
             <a href="https://record.minjust.gov.kg/view/01705202310085" target="_blank" rel="noopener" style="color:#F3E5AB;text-decoration:underline;">Verify in Ministry of Justice Register ↗</a>
@@ -746,7 +983,7 @@
       </div>
 
       <div class="site-footer__legal">
-        © Zinaida Jupiter &amp; Limited Liability Company “Jupiter Group” (Jupiter Group LLC), 2023–2026. All rights reserved under the Berne Convention. <em>Jupiter Wisdom Tales</em> / <em>Tales of Jupiter Wisdom</em>.<br>
+        © Zinaida Jupiter &amp; Limited Liability Company “Jupiter Group” (Jupiter Group LLC), 2023 to 2026. All rights reserved under the Berne Convention. <em>Jupiter Wisdom Tales</em> / <em>Tales of Jupiter Wisdom</em>.<br>
         Official Publisher &amp; Merchant of Record: <strong>Limited Liability Company “Jupiter Group” (OsOO “Jupiter Group”)</strong>, registered by the Osh Justice Department of the Ministry of Justice of the Kyrgyz Republic on May 17, 2023 (Registration No. 217940-3310-OOO, TIN 01705202310085, OKPO 31950675; Registered Office: 4 A. Borubaeva Street, Apt. 21, Osh, 723500, Kyrgyz Republic; Managing Director: Vladimir Yuryevich Jupiter).
       </div>
     </div>
@@ -755,7 +992,7 @@
   <!-- NATIVE MODAL BOOK READER (<dialog>) -->
   <dialog id="book-reader-dialog" aria-labelledby="book-reader-dialog-title">
     <div class="dialog-header">
-      <h3 id="book-reader-dialog-title">Interactive Reading Room • Jupiter Wisdom Tales</h3>
+      <h3 id="book-reader-dialog-title">Interactive Reading Room, Jupiter Wisdom Tales</h3>
       <button type="button" class="dialog-close" data-close-dialog aria-label="Close reading room">&times;</button>
     </div>
     <div class="dialog-body" id="book-reader-dialog-body"></div>
@@ -764,12 +1001,12 @@
   <!-- NATIVE MODAL ORDER DIALOG (<dialog>) -->
   <dialog id="lead-dialog" aria-labelledby="lead-dialog-title" style="max-width:540px;">
     <div class="dialog-header">
-      <h3 id="lead-dialog-title">Order Books • Jupiter Wisdom Tales</h3>
+      <h3 id="lead-dialog-title">Order Books, Jupiter Wisdom Tales</h3>
       <button type="button" class="dialog-close" data-close-dialog aria-label="Close order window">&times;</button>
     </div>
     <div class="dialog-body">
       <p style="margin:0 0 16px;font-size:14px;color:var(--ink-secondary);">
-        Leave your contact details—our publishing desk at <strong>Jupiter Group LLC</strong> will send your commercial invoice, sample PDFs, and delivery details.
+        Leave your contact details and our publishing desk at <strong>Jupiter Group LLC</strong> will send your commercial invoice, sample PDFs, and delivery details.
       </p>
       <form id="modal-order-form" novalidate>
         <div class="form-field">
@@ -790,7 +1027,7 @@
             <option value="Complete 16-Book Library ($249 / $449 USD)">Complete 16-Book Library ($249 Digital / $449 Print)</option>
             <option value="Collector's Golden Tome Hardcover ($149.00 USD)">Collector’s “Golden Tome” Hardcover ($149.00 USD)</option>
             <option value="Single Volume Family 6+ ($14.99 / $29.99 USD)">Family Edition “For Parents &amp; Children” 6+ ($14.99 / $29.99)</option>
-            <option value="Single Volume Executive 12+ ($14.99 / $29.99 USD)">Executive Edition “2×2 Decision Matrix” 12+ ($14.99 / $29.99)</option>
+            <option value="Single Volume Executive 12+ ($14.99 / $29.99 USD)">Adult Edition “Folk Wisdom in Leadership” 12+ ($14.99 / $29.99)</option>
             <option value="Russian or Mandarin Chinese Translation Package">Translated Edition Package (Russian / Mandarin Chinese)</option>
             <option value="Corporate Gift Print Run (From $2,950 USD)">Bespoke Corporate Gift Print Run (From $2,950 USD)</option>
           </select>
@@ -831,10 +1068,10 @@
   </aside>
 
   <!-- SCRIPTS -->
-  <script src="js/books-data.js?v=1"></script>
-  <script src="js/cookie.js?v=1" defer></script>
-  <script src="js/lead.js?v=1" defer></script>
-  <script src="js/app.js?v=1" defer></script>
-  <script src="js/ai-consultant.js?v=1" defer></script>
+  <script src="js/books-data.js?v=20261027v4"></script>
+  <script src="js/cookie.js?v=20261027f" defer></script>
+  <script src="js/lead.js?v=20261027f" defer></script>
+  <script src="js/app.js?v=20261027v4" defer></script>
+  <script src="js/ai-consultant.js?v=20261027f" defer></script>
 </body>
 </html>

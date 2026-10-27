@@ -9,27 +9,27 @@
     var DEFAULT_FACTS = {
         "site": "jupiter-wisdom-tales.com",
         "label": "Jupiter Wisdom Tales",
-        "speaker": "Zinaida Jupiter, DBA",
+        "speaker": "Zinaida Jupiter, Author of the Series, Doctor of Business Administration (DBA)",
         "phone": "+996 (3222) 5-44-08",
         "phone_href": "tel:+996322254408",
         "email": "info@jupiter-wisdom-tales.com",
         "sla": "Our international publishing team at Jupiter Group LLC will send your catalog, sample PDFs, and invoice within 1 business hour.",
-        "disclosure": "International Publishing Desk • Limited Liability Company 'Jupiter Group' • Helping families, executives, and institutions select the right edition.",
+        "disclosure": "International Publishing Desk, Limited Liability Company 'Jupiter Group'. Helping families, leaders, and institutions select the right edition.",
         "quick_topics": [
+            {
+                "id": "strategy_and_skills",
+                "label": "Strategy (Where to Walk) & Skills (How to Walk)",
+                "answer": "Building skills helps a person walk the path with confidence, while strategy answers the most important question: where to walk. That is what we do through classic folk tales and centuries-old human wisdom: helping children and adults see where each path leads before taking the first step."
+            },
             {
                 "id": "two_editions",
                 "label": "Two Editions of Each Book (6+ & 12+)",
-                "answer": "Every book in our 16-volume series is published in two standalone editions: 1) Family Edition (Ages 6+): 5 illustrated story scenes, 3 evening conversation questions, the 'Three Roads' choice game, and a creative drawing page ($14.99 Digital / $29.99 Hardcover). 2) Executive Edition (Ages 12+): concise narrative plus a complete 2×2 Strategic Decision Matrix where ★ Quadrant 4 in the upper-right corner reveals the winning move."
-            },
-            {
-                "id": "languages",
-                "label": "English Original & Translations (RU / ZH)",
-                "answer": "All 16 books of the Jupiter Wisdom Tales series are published originally in English for the international market (Amazon KDP, IngramSpark, and direct global orders) and are officially translated into Russian, Mandarin Chinese, and other world languages."
+                "answer": "Every book in our growing collection is published in two standalone editions: 1) Family Edition (Ages 6+): 5 illustrated story scenes, 3 evening conversation questions, the 'Three Roads' choice game, and a creative drawing page ($14.99 Digital / $29.99 Hardcover). 2) Adult & Leadership Edition (Ages 12+): the complete story plus practical life advice, negotiation tools, and real-world case scenarios."
             },
             {
                 "id": "golden_tome",
                 "label": "Collector's 'Golden Tome' Hardcover ($149)",
-                "answer": "The Collector's 'Golden Tome' (84–108 pages + ornamental endpapers, $149.00 USD) unites selected tales in an heirloom binding: cloth spine, 3D relief gold foil stamping, 157 gsm warm parchment-toned paper, and a woven silk ribbon bookmark."
+                "answer": "The Collector's 'Golden Tome' (84 to 108 pages + ornamental endpapers, $149.00 USD) unites selected tales in an heirloom binding: cloth spine, 3D relief gold foil stamping, 157 gsm warm parchment-toned paper, and a woven silk ribbon bookmark."
             },
             {
                 "id": "quiz_start",
@@ -41,14 +41,14 @@
             "step1_title": "Step 1 of 3. What is your primary goal for the series?",
             "step1_options": [
                 "Evening family read-aloud with children (Family Edition 6+)",
-                "Executive leadership, negotiation & team training (2×2 Matrices 12+)",
+                "Practical life advice, leadership & negotiation tools (Adult Edition 12+)",
                 "Collector's 'Golden Tome' Hardcover as a VIP or family gift",
                 "Custom corporate or diplomatic print run with company Ex-Libris"
             ],
             "step2_title": "Step 2 of 3. Which package format would you like to order?",
             "step2_options": [
-                "Single Digital or Hardcover Volumes ($14.99 – $29.99 USD)",
-                "Complete 16-Book Library — All 32 Volumes ($249 Digital / $449 Print)",
+                "Single Digital or Hardcover Volumes ($14.99 to $29.99 USD)",
+                "Complete 16-Book Library: All 32 Volumes ($249 Digital / $449 Print)",
                 "Collector's 'Golden Tome' Hardcover Folio ($149.00 USD)",
                 "Bespoke Corporate Gift Edition (50+ copies, from $2,950 USD)"
             ]

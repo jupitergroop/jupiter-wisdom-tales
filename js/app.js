@@ -10,7 +10,7 @@
   var currentCatalogMode = 'fam'; // 'fam' (6+) or 'mgmt' (12+)
   var currentSearch = '';
   var activeBookNum = 1;
-  var activeTab = 'matrix'; // 'story' | 'kids' | 'matrix'
+  var activeTab = 'story'; // 'story' | 'kids' | 'matrix'
   var activeSceneIdx = 0;
 
   function escapeHtml(str) {
@@ -55,27 +55,27 @@
       var roman = ROMAN[b.num - 1] || b.num;
       var isMgmt = currentCatalogMode === 'mgmt';
       var coverSrc = isMgmt ? b.cover_mgmt : b.cover_fam;
-      var ageTag = isMgmt ? '12+ • 2×2 Matrix' : '6+ • Family';
-      var keyLabel = isMgmt ? 'Executive Key (2×2 Decision Matrix):' : 'Children & Family Key (Ages 6+):';
+      var ageTag = isMgmt ? '12+ (Advice & Tools)' : '6+ (Family)';
+      var keyLabel = isMgmt ? 'Practical Life & Leadership Key (12+):' : 'Children & Family Key (Ages 6+):';
       var keyText = isMgmt ? b.key_adults : b.key_kids;
 
       return [
         '<article class="book-card" data-book-num="' + b.num + '">',
-        '  <div class="book-card__cover-wrap" data-open-reader="' + b.num + '" title="Open interactive reader & 2×2 Matrix for Book ' + roman + ': ' + escapeHtml(b.title_en) + '">',
+        '  <div class="book-card__cover-wrap" data-open-reader="' + b.num + '" title="Open interactive reading room for Book ' + roman + ': ' + escapeHtml(b.title_en) + '">',
         '    <span class="book-card__issue-pill">Book ' + roman + '</span>',
         '    <span class="book-card__age-pill">' + ageTag + '</span>',
-        '    <img src="' + escapeHtml(coverSrc) + '" alt="Cover of ' + escapeHtml(b.title_en) + ' — By Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">',
+        '    <img src="' + escapeHtml(coverSrc) + '" alt="Cover of ' + escapeHtml(b.title_en) + ', Author Zinaida Jupiter, DBA" width="360" height="540" loading="lazy">',
         '  </div>',
         '  <div class="book-card__body">',
         '    <h3 class="book-card__title">' + escapeHtml(b.title_en) + '</h3>',
         '    <div class="book-card__en">' + escapeHtml(b.subtitle_en) + '</div>',
-        '    <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: ' + escapeHtml(b.price_digital_usd) + ' USD · Hardcover: ' + escapeHtml(b.price_print_usd) + ' USD</div>',
+        '    <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);margin:4px 0 8px;">Digital eBook: ' + escapeHtml(b.price_digital_usd) + ' USD | Hardcover: ' + escapeHtml(b.price_print_usd) + ' USD</div>',
         '    <div class="book-card__key"><strong>' + keyLabel + '</strong><br>' + escapeHtml(keyText) + '</div>',
         '    <div class="book-card__actions">',
-        '      <button type="button" class="btn btn--primary btn--sm" data-open-reader="' + b.num + '">Read Online &amp; 2×2 Matrix</button>',
+        '      <button type="button" class="btn btn--primary btn--sm" data-open-reader="' + b.num + '">Open Book in Reading Room</button>',
         '      <div class="book-card__pdf-links">',
         '        <a href="' + escapeHtml(b.pdf_fam) + '" target="_blank" rel="noopener">PDF 6+ (Family)</a>',
-        '        <a href="' + escapeHtml(b.pdf_mgmt) + '" target="_blank" rel="noopener">PDF 12+ (Executive)</a>',
+        '        <a href="' + escapeHtml(b.pdf_mgmt) + '" target="_blank" rel="noopener">PDF 12+ (Adults)</a>',
         '      </div>',
         '    </div>',
         '  </div>',
@@ -95,22 +95,22 @@
     var headerHtml = [
       '<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;margin-bottom:20px;padding-bottom:16px;border-bottom:2px solid var(--gold-deep);">',
       '  <div>',
-      '    <div style="font-size:12px;font-weight:700;color:var(--cinnabar);letter-spacing:1.2px;text-transform:uppercase;">Book ' + roman + ' of XVI • Jupiter Wisdom Tales Series (EN / RU / ZH)</div>',
+      '    <div style="font-size:12px;font-weight:700;color:var(--cinnabar);letter-spacing:1.2px;text-transform:uppercase;">Book ' + roman + ', Jupiter Wisdom Tales Series (EN / RU / ZH)</div>',
       '    <h3 style="font-family:var(--font-serif);font-size:26px;margin:4px 0;color:var(--bg-walnut);">“' + escapeHtml(b.title_en) + '”</h3>',
-      '    <div style="font-size:14px;color:var(--ink-secondary);">' + escapeHtml(b.subtitle_en) + ' • ISBN ' + escapeHtml(b.isbn_fam) + '</div>',
+      '    <div style="font-size:14px;color:var(--ink-secondary);">' + escapeHtml(b.subtitle_en) + ' | ISBN ' + escapeHtml(b.isbn_fam) + '</div>',
       '  </div>',
       '  <div style="display:flex;flex-wrap:wrap;gap:8px;">',
       '    <a href="' + escapeHtml(b.pdf_fam) + '" target="_blank" rel="noopener" class="btn btn--outline btn--sm">Download PDF 6+ (Family)</a>',
-      '    <a href="' + escapeHtml(b.pdf_mgmt) + '" target="_blank" rel="noopener" class="btn btn--gold btn--sm">Download PDF 12+ (2×2 Matrix)</a>',
+      '    <a href="' + escapeHtml(b.pdf_mgmt) + '" target="_blank" rel="noopener" class="btn btn--gold btn--sm">Download PDF 12+ (Adults)</a>',
       '  </div>',
       '</div>'
     ].join('\n');
 
     var tabsHtml = [
       '<div class="workbench-tabs" role="tablist">',
-      '  <button type="button" class="workbench-tab ' + (tab === 'matrix' ? 'is-active' : '') + '" data-wb-tab="matrix">1. Two-Axis Breakdown &amp; 2×2 Matrix (12+)</button>',
+      '  <button type="button" class="workbench-tab ' + (tab === 'story' ? 'is-active' : '') + '" data-wb-tab="story">1. Story &amp; Illustrations</button>',
       '  <button type="button" class="workbench-tab ' + (tab === 'kids' ? 'is-active' : '') + '" data-wb-tab="kids">2. Child Conversation &amp; “Three Roads” Game (6+)</button>',
-      '  <button type="button" class="workbench-tab ' + (tab === 'story' ? 'is-active' : '') + '" data-wb-tab="story">3. Full Story &amp; 5 Illustrations</button>',
+      '  <button type="button" class="workbench-tab ' + (tab === 'matrix' ? 'is-active' : '') + '" data-wb-tab="matrix">3. Practical Life &amp; Leadership Advice (12+)</button>',
       '</div>'
     ].join('\n');
 
@@ -184,14 +184,6 @@
       ].join('\n');
     } else {
       var mat = b.matrix_2x2 || {};
-      var kv = mat.quadrants || {};
-      var q1 = kv.q1_bottom_left || {};
-      var q2 = kv.q2_top_left || {};
-      var q3 = kv.q3_bottom_right || {};
-      var q4 = kv.q4_top_right_win || {};
-      var osY = mat.axis_y || {};
-      var osX = mat.axis_x || {};
-
       var rulesHtml = (mat.three_rules || []).map(function (r) {
         return '<li style="padding:10px 14px;background:var(--bg-parchment);border-left:4px solid var(--cinnabar);border-radius:6px;">' + escapeHtml(r) + '</li>';
       }).join('');
@@ -212,59 +204,29 @@
 
       bodyHtml = [
         '<div style="background:var(--gold-soft);border:1.5px solid var(--gold-deep);border-radius:10px;padding:16px 20px;margin-bottom:18px;">',
-        '  <div style="font-size:12px;font-weight:700;color:var(--cinnabar);text-transform:uppercase;margin-bottom:4px;">Core Strategic &amp; Negotiation Insight (★ Quadrant 4)</div>',
-        '  <div style="font-family:var(--font-serif);font-size:17px;color:var(--bg-walnut);font-weight:700;">' + escapeHtml(mat.paradox) + '</div>',
+        '  <div style="font-size:12px;font-weight:700;color:var(--cinnabar);text-transform:uppercase;margin-bottom:4px;">Core Lesson of the Tale for Adults &amp; Leaders</div>',
+        '  <div style="font-family:var(--font-serif);font-size:17px;color:var(--bg-walnut);font-weight:700;">' + escapeHtml(mat.paradox || b.key_adults) + '</div>',
         '</div>',
-        '<div class="matrix-2x2-layout">',
-        '  <div class="matrix-axis-y">' + escapeHtml(osY.low || 'Low ↓') + ' • ' + escapeHtml(osY.title || 'AXIS Y') + ' • ' + escapeHtml(osY.high || 'High ↑') + '</div>',
-        '  <div class="matrix-grid-cells">',
-        '    <div class="matrix-cell matrix-cell--q2">',
-        '      <span class="matrix-cell__badge">Upper-Left Corner (Axis Y+, Axis X−)</span>',
-        '      <h4>' + escapeHtml(q2.title || 'Quadrant 2') + '</h4>',
-        '      <p>' + escapeHtml(q2.body || '') + '</p>',
-        '    </div>',
-        '    <div class="matrix-cell matrix-cell--q4">',
-        '      <span class="matrix-cell__badge">★ WINNING CHOICE — TOP-RIGHT CORNER (Axis Y+, Axis X+)</span>',
-        '      <h4>' + escapeHtml(q4.title || '★ Quadrant 4') + '</h4>',
-        '      <p>' + escapeHtml(q4.body || '') + '</p>',
-        '    </div>',
-        '    <div class="matrix-cell matrix-cell--q1">',
-        '      <span class="matrix-cell__badge">Lower-Left Corner (Axis Y−, Axis X−)</span>',
-        '      <h4>' + escapeHtml(q1.title || 'Quadrant 1') + '</h4>',
-        '      <p>' + escapeHtml(q1.body || '') + '</p>',
-        '    </div>',
-        '    <div class="matrix-cell matrix-cell--q3">',
-        '      <span class="matrix-cell__badge">Lower-Right Corner (Axis Y−, Axis X+)</span>',
-        '      <h4>' + escapeHtml(q3.title || 'Quadrant 3') + '</h4>',
-        '      <p>' + escapeHtml(q3.body || '') + '</p>',
-        '    </div>',
-        '  </div>',
-        '</div>',
-        '<div class="matrix-axis-x">',
-        '  <span>' + escapeHtml(osX.left || '◄ Low') + '</span>',
-        '  <span>' + escapeHtml(osX.title || 'AXIS X') + '</span>',
-        '  <span>' + escapeHtml(osX.right || 'High ►') + '</span>',
-        '</div>',
-        '<div style="margin-top:24px;" class="editions-grid">',
+        '<div style="margin-top:16px;" class="editions-grid">',
         '  <div>',
-        '    <h4 style="font-family:var(--font-serif);font-size:18px;margin:0 0 10px;color:var(--bg-walnut);">Diagnostic Traps &amp; Path to the Top-Right Quadrant:</h4>',
+        '    <h4 style="font-family:var(--font-serif);font-size:18px;margin:0 0 10px;color:var(--bg-walnut);">Practical Advice &amp; Management Steps:</h4>',
         '    <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px;font-size:14px;">' + rulesHtml + '</ul>',
         '  </div>',
         '  <div>',
-        '    <h4 style="font-family:var(--font-serif);font-size:18px;margin:0 0 10px;color:var(--bg-walnut);">Executive Idioms &amp; Boardroom Vocabulary:</h4>',
+        '    <h4 style="font-family:var(--font-serif);font-size:18px;margin:0 0 10px;color:var(--bg-walnut);">Winged Phrases for Negotiations &amp; Conversation:</h4>',
         '    <div style="display:flex;flex-direction:column;gap:8px;">' + vocabHtml + '</div>',
         '  </div>',
         '</div>',
-        '<h4 style="font-family:var(--font-serif);font-size:18px;margin:24px 0 8px;color:var(--bg-walnut);">Real-World Application (Losing Reaction → ★ Quadrant 4 Winning Move):</h4>',
+        '<h4 style="font-family:var(--font-serif);font-size:18px;margin:24px 0 8px;color:var(--bg-walnut);">How This Works in Family &amp; Leadership Situations:</h4>',
         '<div style="overflow-x:auto;">',
         '  <table class="situations-table">',
-        '    <thead><tr><th>Family or Executive Situation</th><th>Losing Reaction (Quadrants 1–3)</th><th>★ Top-Right Corner (Quadrant 4)</th></tr></thead>',
+        '    <thead><tr><th>Situation</th><th>Common Mistake</th><th>★ Wise Solution</th></tr></thead>',
         '    <tbody>' + rowsHtml + '</tbody>',
         '  </table>',
         '</div>',
         '<div style="margin-top:18px;padding:14px 18px;background:var(--bg-parchment-alt);border-radius:8px;font-size:13.5px;color:var(--ink-secondary);display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;">',
         '  <span><strong>World Literature Parallel:</strong> ' + escapeHtml(b.cultural_bridge || '') + '</span>',
-        '  <span><strong>International Contract Culture:</strong> ' + escapeHtml(b.contract_culture || '') + '</span>',
+        '  <span><strong>Agreement Culture:</strong> ' + escapeHtml(b.contract_culture || '') + '</span>',
         '</div>'
       ].join('\n');
     }
@@ -301,7 +263,7 @@
     var book = getBookByNum(activeBookNum);
     if (!dlg || !dlgBody || !book) return;
 
-    dlgTitle.textContent = 'Book ' + (ROMAN[book.num - 1] || book.num) + ' • “' + book.title_en + '” — Interactive Reading Room';
+    dlgTitle.textContent = 'Book ' + (ROMAN[book.num - 1] || book.num) + ', “' + book.title_en + '” (Interactive Reading Room)';
     dlgBody.innerHTML = buildBookExplorerHtml(book, activeTab, activeSceneIdx);
     if (typeof dlg.showModal === 'function' && !dlg.open) {
       dlg.showModal();
@@ -470,7 +432,7 @@
         if (fb) {
           fb.style.color = isRight ? '#15803D' : '#B91C1C';
           fb.textContent = isRight
-            ? '★ Correct! This is the path of wisdom, mutual respect, and the Top-Right Quadrant (Quadrant 4).'
+            ? '★ Correct! This is the path of wisdom, honesty, and mutual respect.'
             : 'This path leads to conflict or lost time. Try selecting the wise choice (★ Road C)!';
         }
         return;
