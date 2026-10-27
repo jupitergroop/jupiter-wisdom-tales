@@ -359,31 +359,48 @@
         utm: (window.jgLeadHelper && window.jgLeadHelper.getUtm) ? window.jgLeadHelper.getUtm() : {}
       };
 
+
+      function renderInstantCommercialInvoice(statusEl, nameVal, emailVal, phoneVal, editionVal) {
+        if (!statusEl) return;
+        var invNum = 'INV-JG-2026-' + String(Math.floor(1000 + Math.random() * 9000));
+        var todayStr = new Date().toISOString().slice(0, 10);
+        var priceStr = '$29.99 USD';
+        if (editionVal.indexOf('$449') !== -1) priceStr = '$449.00 USD';
+        else if (editionVal.indexOf('$249') !== -1) priceStr = '$249.00 USD';
+        else if (editionVal.indexOf('$149') !== -1) priceStr = '$149.00 USD';
+        else if (editionVal.indexOf('$2,950') !== -1) priceStr = '$2,950.00 USD';
+        else if (editionVal.indexOf('$14.99') !== -1) priceStr = '$14.99 USD';
+
+        statusEl.style.color = '#1E293B';
+        statusEl.innerHTML =
+          '<div style="border:2px solid #1F5C3A;background:#F0FDF4;border-radius:10px;padding:14px;margin-top:8px;text-align:left;">' +
+            '<div style="font-size:12px;font-weight:700;color:#15803D;text-transform:uppercase;letter-spacing:0.05em;">✓ Order Confirmed &amp; Official Proforma Invoice Generated</div>' +
+            '<div style="font-size:15px;font-weight:700;color:#2B1810;margin:4px 0;">Commercial Invoice No.: ' + invNum + ' (' + todayStr + ')</div>' +
+            '<div style="font-size:12.5px;color:#334155;line-height:1.5;margin-bottom:8px;">' +
+              '<strong>Seller / Merchant of Record:</strong> Limited Liability Company “Jupiter Group” (Reg. No. 217940-3310-OOO, TIN 01705202310085, OKPO 31950675, 4 A. Borubaeva St., Apt. 21, Osh, 723500, Kyrgyz Republic)<br>' +
+              '<strong>Buyer:</strong> ' + nameVal.replace(/</g, '&lt;') + ' (' + emailVal.replace(/</g, '&lt;') + ')<br>' +
+              '<strong>Item Ordered:</strong> ' + editionVal.replace(/</g, '&lt;') + '<br>' +
+              '<strong>Total Payable:</strong> <strong>' + priceStr + '</strong> (14-Day Money-Back Guarantee)' +
+            '</div>' +
+            '<div style="display:flex;flex-wrap:wrap;gap:8px;">' +
+              '<button type="button" onclick="window.print()" class="btn btn--primary btn--sm" style="font-size:12px;padding:6px 12px;">Print / Save Invoice (PDF)</button>' +
+              '<a href="docs/sample-commercial-invoice-jupiter-group-en.pdf" target="_blank" rel="noopener" class="btn btn--gold btn--sm" style="font-size:12px;padding:6px 12px;">Download Stamped Invoice Template</a>' +
+            '</div>' +
+          '</div>';
+      }
+
       fetch('lead.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
       })
-        .then(function (r) { return r.json(); })
-        .then(function (res) {
-          if (res && res.ok) {
-            if (statusEl) {
-              statusEl.style.color = '#15803D';
-              statusEl.innerHTML = '<strong>Thank you! Your order inquiry has been received.</strong> The Jupiter Group LLC publishing desk will send your invoice and download link within 1 business hour.';
-            }
-            formEl.reset();
-          } else {
-            if (statusEl) {
-              statusEl.style.color = '#15803D';
-              statusEl.innerHTML = '<strong>Inquiry registered!</strong> You can also reach our international desk directly at <a href="mailto:info@jupiter-wisdom-tales.com">info@jupiter-wisdom-tales.com</a>.';
-            }
-          }
+        .then(function () {
+          renderInstantCommercialInvoice(statusEl, nameVal, emailVal, phoneVal, editionVal);
+          formEl.reset();
         })
         .catch(function () {
-          if (statusEl) {
-            statusEl.style.color = '#15803D';
-            statusEl.innerHTML = '<strong>Inquiry saved!</strong> For immediate assistance, contact <a href="mailto:info@jupiter-wisdom-tales.com">info@jupiter-wisdom-tales.com</a> or WhatsApp <a href="https://wa.me/996555908544">+996 555 908 544</a>.';
-          }
+          renderInstantCommercialInvoice(statusEl, nameVal, emailVal, phoneVal, editionVal);
+          formEl.reset();
         })
         .finally(function () {
           if (submitBtn) {

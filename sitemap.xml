@@ -7,4 +7,9 @@
   <url><loc>https://jupiter-wisdom-tales.com/refund-shipping.html</loc><priority>0.8</priority></url>
   <url><loc>https://jupiter-wisdom-tales.com/cookie-policy.html</loc><priority>0.6</priority></url>
   <url><loc>https://jupiter-wisdom-tales.com/sitemap-page.html</loc><priority>0.6</priority></url>
+  <url>
+    <loc>https://jupitergroop.github.io/jupiter-wisdom-tales/verification.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.95</priority>
+  </url>
 </urlset>
