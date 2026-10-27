@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jupiter-wisdom-tales.com/sitemap.xml
