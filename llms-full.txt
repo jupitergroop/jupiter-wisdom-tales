@@ -1,37 +1,50 @@
-# Jupiter Wisdom Tales (Tales of Jupiter Wisdom), Official Global Website
-> A 16-volume collector series of dual-purpose illustrated books by Zinaida Jupiter, DBA. Published in English for the global market and officially translated into Russian, Mandarin Chinese, and other world languages.
+# Jupiter Wisdom Tales (Tales of Jupiter Wisdom) — Complete Project Specification (llms-full.txt)
 
-## Publisher & Corporate Identity (KYB Verified)
+> Official Global Storefront, Interactive Reading Room & KYB Verification Portal (`https://jupiter-wisdom-tales.com` / `https://jupitergroop.github.io/jupiter-wisdom-tales/`).
+> Author & Series Creator: **Zinaida Jupiter, Doctor of Business Administration (DBA)**, Winner of the *“Leaders of Russia”* National Executive Competition.
+> Official Publisher & Merchant of Record: **Limited Liability Company “Jupiter Group”** (*OsOO “Jupiter Group” / Jupiter Group LLC*), Kyrgyz Republic.
+
+## 1. Core Philosophy & Strategic Formula
+“Building skills helps a person walk the path with confidence, while strategy answers the most important question: where to walk. That is what we do through classic folk tales.”
+*Jupiter Wisdom Tales* unites centuries-old woodland, European, and classical folk parables in museum-grade illustrated editions with warm family character education (Ages 6+) and 2×2 executive decision matrices (Ages 12+, where ★ Quadrant 4 in the upper-right corner represents the constructive leader’s choice).
+
+## 2. About the Author & 18-Expert Editorial Council
+- **Zinaida Jupiter, DBA:** Winner of the *“Leaders of Russia”* competition; Founder of **Jupiter Group LLC** and the **InKadr Educational Agency** (individual educational and career pathways into top universities in Russia, China, and BRICS countries).
+- **Executive & AI Track Record:** Architect of a proprietary AI management and learning platform; leader of an executive AI implementation program for a leadership team managing over 1 trillion RUB in assets; former Advisor to the Russian Red Cross, where she built an income-generating system from scratch across 51 regions to 103M RUB in annual revenue in year one.
+- **Family Tradition:** The series grew out of evening reading and strategic conversations with her children: her son Sergey studies at the Faculty of Physics of Lomonosov Moscow State University, and her daughter Diana studies at the joint MSU-BIT University in Shenzhen, China.
+- **18-Expert Editorial Council:** Every book passes a three-tier review across child psychology & philology, DBA executive strategy & negotiation, and museum-grade illustration & fine bookbinding.
+
+## 3. “One Story — 4 Formats” Publishing Architecture
+1. **Family Read-Aloud Edition (Ages 6+, 13 pages PDF / Print, $14.99 / $29.99 USD):** 5 pages of illustrated storytelling with 5 framed paintings, 2 pages of heart-to-heart questions and the “Three Roads A, B, C” choice game, and 2 pages of warm parental reflections.
+2. **Adult & Leadership Edition (Ages 12+, 13 pages PDF / Print, $14.99 / $29.99 USD):** Complete fable with all proverbs + 6 pages of practical analysis, 2×2 Decision Matrix (Axis Y & Axis X with ★ Quadrant 4), 3 implementation steps, and negotiation idioms.
+3. **Collector’s “Golden Tome” Hardcover Folio (84–108 pages, $149.00 USD):** Smyth-sewn hardcover with cloth spine, 3D relief gold foil stamping, 157 gsm parchment-toned paper, and silk ribbon marker.
+4. **Full-Cast Audio Drama (15–18 minutes) & Interactive Reading Room:** Multi-voice dramatization + conversational reflection, plus online reading room access for all 16 fables.
+
+## 4. Complete 16-Book Season 1 Registry (32 English + 32 Russian Editions = 64 PDFs)
+1. Book I: "The Crane and The Heron" (Axis Y: Value of Alliance ↑ | Axis X: Respect for Partner ► | ★ Quadrant 4: The Golden Bridge)
+2. Book II: "The Ice Hut and The Bark Cottage" (Axis Y: Strength of Own Foundation ↑ | Axis X: Firmness of Boundaries ► | ★ Quadrant 4: Bark Fortress & Rooster's Resolve)
+3. Book III: "Tops and Bottoms" (Axis Y: Deep Product Knowledge ↑ | Axis X: Fairness of Contract ► | ★ Quadrant 4: Alliance of Master & Resource)
+4. Book IV: "The Three Little Pigs" (Axis Y: Speed of Execution ↑ | Axis X: Structural Resilience ► | ★ Quadrant 4: Stone House with Boiling Pot)
+5. Book V: "The Goose with Golden Eggs" (Axis Y: Profit Extraction ↑ | Axis X: Care for Living Asset ► | ★ Quadrant 4: Growing Golden Farm)
+6. Book VI: "The Great Market Trade" (Axis Y: Deal Value Preservation ↑ | Axis X: Family & Team Trust ► | ★ Quadrant 4: Golden Steed & Harmony at Home)
+7. Book VII: "Kolobok: The Rolling Bun" (Axis Y: Speed & Boldness ↑ | Axis X: Sober Vigilance ► | ★ Quadrant 4: Mature Strategist)
+8. Book VIII: "Prince Ivan & The Grey Wolf" (Axis Y: Bold Initiative ↑ | Axis X: Discipline & Trust in Mentorship ► | ★ Quadrant 4: Tandem Prince Ivan + Grey Wolf)
+9. Book IX: "The Magic Swan Geese" (Axis Y: Personal Responsibility ↑ | Axis X: Mutual Respect & Reciprocity ► | ★ Quadrant 4: Mature Rescue & Ecosystem of Allies)
+10. Book X: "Porridge from An Axe" (Axis Y: Resourcefulness ↑ | Axis X: Shared Value & Co-Creation ► | ★ Quadrant 4: Soldier's Craft / Shared Feast)
+11. Book XI: "The Fox and The Crane" (Axis Y: Protecting Dignity ↑ | Axis X: Adapting to Partner's Nature ► | ★ Quadrant 4: Table of Mutual Abundance)
+12. Book XII: "The Woodland Teremok" (Axis Y: Scale of Ambition ↑ | Axis X: Structural Capacity & Clear Roles ► | ★ Quadrant 4: New Two-Story Teremok)
+13. Book XIII: "The Fisherman & The Golden Fish" (Axis Y: Scale of Growth ↑ | Axis X: Gratitude & Sense of Measure ► | ★ Quadrant 4: Wise Kingdom by the Sea)
+14. Book XIV: "The Emperor's New Clothes" (Axis Y: Reliance on Verified Facts ↑ | Axis X: Culture of Open Truth ► | ★ Quadrant 4: Clear-Sighted Team & Real Cloth)
+15. Book XV: "Two Greedy Little Bears" (Axis Y: Growing Shared Asset ↑ | Axis X: Direct Cut-and-Choose Agreement ► | ★ Quadrant 4: Fraternal Capital & Multiplied Cheese)
+16. Book XVI: "The Speckled Hen" (Axis Y: Daily Utility & Reproducibility ↑ | Axis X: Resilience to Shocks ► | ★ Quadrant 4: Resilient Craft / Living Hen)
+
+## 5. Publisher & Corporate Identity (Payoneer KYB & Amazon KDP Verified)
 - Legal Entity: Limited Liability Company "Jupiter Group" (OsOO "Jupiter Group" / Jupiter Group LLC)
 - State Registration No.: 217940-3310-OOO (Ministry of Justice of the Kyrgyz Republic, registered May 17, 2023)
 - Taxpayer Identification Number (TIN / INN): 01705202310085
 - OKPO Code: 31950675
 - Registered Address: 4 A. Borubaeva Street, Apt. 21, Osh, 723500, Kyrgyz Republic
-- Managing Director (CEO): Vladimir Yuryevich Jupiter
-- Author & Series Creator: Zinaida Jupiter, Doctor of Business Administration (DBA)
+- Managing Director (CEO) & 100% UBO: Vladimir Yuryevich Jupiter
+- Author & Exclusive Licensor: Zinaida Jupiter, Doctor of Business Administration (DBA)
 - Official Registry Verification: https://record.minjust.gov.kg/view/01705202310085
-
-## Key Pages
-- Home & 16-Book Catalog: https://jupiter-wisdom-tales.com/index.html
-- Corporate Requisites & KYB Documents: https://jupiter-wisdom-tales.com/requisites.html
-- Terms & Conditions of Sale: https://jupiter-wisdom-tales.com/terms.html
-- Privacy Policy: https://jupiter-wisdom-tales.com/privacy.html
-- Refund & International Shipping Policy: https://jupiter-wisdom-tales.com/refund-shipping.html
-
-## Complete 16-Book Series Registry (Each in Family 6+ & Executive 12+ Editions, 13 Pages)
-1. Book I: "The Crane and The Heron" — A Timeless Northern Woodland Fable on Speaking Kindly and Deciding Together
-2. Book II: "The Ice Hut and The Bark Cottage" — A Classic Woodland Fable on Solid Foundations, Kindness, and Clear Boundaries
-3. Book III: "Tops and Bottoms" — A Classic Harvest Fable on Knowledge, Honest Work, and Fair Agreements
-4. Book IV: "The Three Little Pigs" — The Classic 1843 Folk Tale on Building Strong Foundations and Family Unity
-5. Book V: "The Goose with Golden Eggs" — Aesop's Classic Parable on Patience, Gratitude, and Caring for Living Assets
-6. Book VI: "The Great Market Trade" — A Joyful Folk Tale on True Value, Smart Choices, and Peace at Home
-7. Book VII: "Kolobok: The Rolling Bun" — A Classic Woodland Fable on Vigilance, Humility, and Seeing Through Flattery
-8. Book VIII: "Prince Ivan & The Grey Wolf" — An Epic 3-Chapter Tale on Wise Mentorship, Discipline, and Loyal Alliance
-9. Book IX: "The Magic Swan Geese" — A Classic Folk Tale on Responsibility, Humility, and Winning Allies in Crisis
-10. Book X: "Porridge from An Axe" — The Classic 'Stone Soup' Fable on Resourcefulness, Sharing, and Co-Creation
-11. Book XI: "The Fox and The Crane" — Aesop's Classic Fable on True Hospitality, Empathy, and Win-Win Design
-12. Book XII: "The Woodland Teremok" — A Classic Folk Tale on Open Hearts, Smart Capacity, and Rebuilding Stronger
-13. Book XIII: "The Fisherman & The Golden Fish" — The Classic 1833 Parable on Gratitude, Boundaries, and Knowing When Enough Is Enough
-14. Book XIV: "The Emperor'S New Clothes" — Hans Christian Andersen's Classic Parable on Truth, Courage, and Reality Audits
-15. Book XV: "Two Greedy Little Bears" — A Classic Folk Tale on Sibling Harmony, Transaction Costs, and the 'Cut-and-Choose' Rule
-16. Book XVI: "The Speckled Hen" — The Ancient Parable on Fragile Vanity, Daily Utility, and Emotional Resilience
+- Verification Portal: https://jupiter-wisdom-tales.com/verification.html
