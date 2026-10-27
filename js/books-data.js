@@ -11,8 +11,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-012-5",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b1_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b1_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b1_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b1_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Speak from the heart without prickly words: If you want to play or need help, ask warmly instead of testing the other person with riddles. 2. Welcome peace on the very first knock: When a loved one comes to apologize, open the door wide without keeping score.",
     "key_adults": "★ THE GOLDEN ALLIANCE BRIDGE: High mutual respect combined with a crisp decision window and zero ego friction.",
     "preface_en": "Echoes Aesop's classic fables of pride and timing, the Eastern parable of 'The Traveller of Yan', and the Panchatantra tale of two proud travellers at the river crossing. In Book I of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -22,35 +22,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. Seven Miles of Mossy Marsh Between Two Lonely Neighbours ❧",
         "aphorism": "Sheet I. Seven Miles of Mossy Marsh Between Two Lonely Neighbours",
         "text": "Across the misty northern marshland stood two cosy cottages, seven miles apart. In one lived the stately Crane; in the other lived the graceful Heron. Growing weary of the quiet evenings alone by his hearth, the Crane decided to walk across the marsh and invite his neighbour to build a warm home together. Putting on his finest embroidered coat and taking his carved walking staff, the Crane stepped out into the morning dew. Though the mossy path was soft and tangled, his heart was light with the hope of companionship.",
-        "img": "img/scenes/b1_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b1_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. The First Knock and the Cold Wall of Pride ❧",
         "aphorism": "Sheet II. The First Knock and the Cold Wall of Pride",
         "text": "When the Crane reached the Heron's cottage and bowed politely at her window, he spoke with an open heart: 'Dear neighbour, let us unite our two homes into one! Together winter will be warm and joyful.' Yet the Heron tilted her beak high, afraid to seem too eager, and answered with a chilly wave of her wing: 'No indeed, Crane! Your legs are too long, your coat is too short, and you fly far too clumsily. Go back to your own side of the marsh!'",
-        "img": "img/scenes/b1_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b1_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. The Quiet Samovar and the Regret of a Proud Heart ❧",
         "aphorism": "Sheet III. The Quiet Samovar and the Regret of a Proud Heart",
         "text": "Wounded to the core, the Crane bowed silently and trudged seven miles home through the mire. Meanwhile, as evening shadows lengthened across the reeds, the Heron sat alone beside her cooling samovar. Listening to the autumn wind, she realized her mistake: 'Why did I turn away such a kind and steady neighbour? Pride warms a room for five minutes, and then leaves it cold. I shall walk to his cottage myself and say yes!'",
-        "img": "img/scenes/b1_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b1_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. The Pendulum Swings: Retaliation Instead of Welcome ❧",
         "aphorism": "Sheet IV. The Pendulum Swings: Retaliation Instead of Welcome",
         "text": "Wrapping her patterned shawl around her shoulders, the Heron walked the seven marshy miles and knocked softly at the Crane's door: 'Dear Crane, forgive my foolish pride! I have thought it over, let us build our home together.' Now the Crane's wish had come true on his own doorstep! Yet wounded vanity flared inside him, and he turned toward the window: 'No, Heron! I no longer wish to marry at all. Return to your own cottage!'",
-        "img": "img/scenes/b1_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b1_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. Breaking the Endless Path with a Golden Bridge ❧",
         "aphorism": "“Pride wears out seven pairs of boots in the marsh, while one kind word lights the hearth.”",
         "text": "No sooner had the garden gate clicked behind the weeping Heron than the Crane grasped his head: 'What have I done? I wanted her friendship all along, yet I traded happiness for a moment of sweet revenge!' In the old fable, they walk back and forth forever along that muddy trail. Yet wise families and leaders know the secret that breaks the spell: meet in the middle of the bridge today, accept the first honest step toward peace, and put the warm samovar on the table together!",
-        "img": "img/scenes/b1_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b1_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“Pride wears out seven pairs of boots in the marsh, while one kind word lights the hearth.”",
@@ -175,8 +175,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-022-8",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b2_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b2_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b2_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b2_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Build on solid bark, not melting ice: In schoolwork, craft, and promises, choose lasting quality over flashy shortcuts. 2. Kindness and firm boundaries walk together: Sharing with friends is wonderful when everyone respects the owner and the rules of the home.",
     "key_adults": "★ PROTECTED BARK FORTRESS: High partnership synergy backed by prior NDA, IP registration, and instant enforcement.",
     "preface_en": "Parallels the classic Eastern proverb of 'The Camel's Nose in the Tent' and the Panchatantra tale of the Sparrow and the Hare resolved by clear rule of law. In Book II of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -186,35 +186,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. Two Cottages at the Edge of the Winter Forest ❧",
         "aphorism": "Sheet I. Two Cottages at the Edge of the Winter Forest",
         "text": "At the edge of a sparkling birch forest lived the Fox and the Hare. As autumn leaves fell, the boastful Fox fashioned a glittering palace of river ice, while the patient Hare worked from dawn till dusk building a sturdy cottage of seasoned timber and warm linden bark. All winter long the Fox teased her neighbour: 'Look how my crystal walls shine in the sun, while your bark roof looks plain and humble!' The Hare only smiled and stacked dry birch logs beside his brick stove.",
-        "img": "img/scenes/b2_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b2_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. Spring Sun and the Creeping Request ('Just Onto the Porch!') ❧",
         "aphorism": "Sheet II. Spring Sun and the Creeping Request ('Just Onto the Porch!')",
         "text": "When April sunshine warmed the woods, the Hare's timber cottage stood dry and fragrant, while the Fox's icy palace melted into a puddle on the grass. Shivering, the Fox knocked at the Hare's window: 'Dear Hare, let me warm my paws just on your porch!' The kind Hare opened the door, and by evening the Fox had climbed onto the warm stove and chased the rightful owner out into the cold.",
-        "img": "img/scenes/b2_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b2_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. Loud Titles That Retreat at the First Growl ❧",
         "aphorism": "Sheet III. Loud Titles That Retreat at the First Growl",
         "text": "Weeping beside the forest path, the little Hare met the Grey Wolf and then the great Brown Bear. Both promised loudly: 'Stop crying, little Hare! With our mighty fangs and roaring voices, we will drive that Fox out in a heartbeat!' Yet the moment the Fox shouted fiercely from the warm stove, both the Wolf and the Bear trembled, made excuses, and hurried back into the woods. Status without persistence could not reclaim the home.",
-        "img": "img/scenes/b2_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b2_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. The Golden Rooster and the Trumpet of Truth ❧",
         "aphorism": "Sheet IV. The Golden Rooster and the Trumpet of Truth",
         "text": "Along came the brisk Golden Rooster wearing tall red boots and carrying a shining brass Trumpet of Truth and the Charter of the Forest Council: 'Dry your tears, brother Hare! Right is on your side, let us march to your cottage together!' Ignoring the Fox's bluster, the Rooster stepped firmly onto the porch, sounded his clear golden trumpet, and proclaimed twice that unlawful seizure would face the entire forest assembly before noon.",
-        "img": "img/scenes/b2_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b2_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. Justice Restored and the Charter on the Oak Door ❧",
         "aphorism": "“A warm heart welcomes a guest to the table, while clear boundaries keep the home safe.”",
         "text": "Hearing the unwavering voice of law and seeing the whole woodland gathering behind the Rooster, the Fox lost all her bravado, leaped out the window, and fled into the distant hills. The Hare welcomed the brave Rooster to a steaming samovar, and on his oak door he carved the golden rule of hospitality: 'A kind heart opens the door to guests, but clear rules protect the hearth!'",
-        "img": "img/scenes/b2_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b2_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“A warm heart welcomes a guest to the table, while clear boundaries keep the home safe.”",
@@ -339,8 +339,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-032-1",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b3_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b3_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b3_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b3_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Learn how the world works from root to crown: Curiosity, reading, and craft protect you from foolish mistakes. 2. Share both the effort and the joy: In a loving family and team, whoever helps plant and tend the garden shares the sweetest fruit.",
     "key_adults": "★ SUSTAINABLE JOINT VENTURE: Full transparency on where value ripens + fair profit-sharing tied to real contribution.",
     "preface_en": "Connects with the European folk tale 'The Peasant and the Devil' (Brothers Grimm) and classic Asian agricultural parables on domain competence. In Book III of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -350,35 +350,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. The Spring Clearing and the Bear's Bargain ❧",
         "aphorism": "Sheet I. The Spring Clearing and the Bear's Bargain",
         "text": "Early one spring a hardworking Farmer rode out to a sunny forest clearing to plough the soil and plant sweet golden turnips. No sooner had he cut the first furrow than the great Brown Bear stepped out of the oak woods and roared: 'Farmer! Why are you ploughing in my forest? I shall crush your cart!' Taking off his cap calmly, the clever Farmer replied: 'Do not be angry, Master Bear! Let us farm this field as partners: I shall plough, sow, and tend the crop all summer, and in autumn we shall divide the harvest fairly. Tell me now, who takes the Tops, and who takes the Bottoms?' Thinking that whatever grows above ground in the sun must be finest, the Bear boomed: 'The Tops for me, and the Bottoms for you!'",
-        "img": "img/scenes/b3_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b3_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. Autumn Turnips: Lush Leaves vs. Sweet Roots ❧",
         "aphorism": "Sheet II. Autumn Turnips: Lush Leaves vs. Sweet Roots",
         "text": "All summer long the Farmer weeded and watered the field while the Bear napped in the shade. By autumn the turnips had grown round, heavy, and sweet as amber beneath the soil. When the Bear arrived to claim his share, the Farmer honestly cut every green leaf and piled a mountain of turnip tops onto the Bear's cart, while loading the firm golden turnip roots onto his own wagon.",
-        "img": "img/scenes/b3_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b3_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. A Bite of Bitter Greens on the Forest Stump ❧",
         "aphorism": "Sheet III. A Bite of Bitter Greens on the Forest Stump",
         "text": "Sitting on a mossy stump, the Bear chewed his green tops, and frowned, for turnip leaves are tough and bitter! Just then the Farmer rode past eating a fragrant steamed turnip. Tasting one sweet slice, the Bear roared: 'Your bottoms are sweet as honey, while my tops are bitter! Next spring when you plant this clearing, you shall give me the Bottoms and keep the Tops for yourself!'",
-        "img": "img/scenes/b3_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b3_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. Season Two: Golden Wheat Under the Summer Sun ❧",
         "aphorism": "Sheet IV. Season Two: Golden Wheat Under the Summer Sun",
         "text": "The following spring the Farmer returned to the same clearing, but this time he sowed golden wheat instead of turnips. By August the field stood like a rustling sea of heavy amber ears. Out marched the Bear, pointing his paw at the ground: 'Remember our new contract, Farmer! Last year I lost on the tops, this time give me every Bottom in the earth, and take the Tops for yourself!' The Farmer bowed: 'As you command, Master Bear!'",
-        "img": "img/scenes/b3_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b3_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. Full Sheaves of Grain and the Wisdom of Fair Sharing ❧",
         "aphorism": "“He who knows the root of the craft reaps the golden grain; he who shares by honest work keeps a friend for life.”",
         "text": "Together they reaped the field: the Farmer gathered the rich, grain-filled wheat ears, the Tops, and baked warm white loaves for his family, while the Bear was left with dry, prickly wheat roots in the dirt. From this classic harvest tale, wise families and partners learn a double truth: first, always understand the nature of the work before signing a deal; second, the strongest partnership lasts for years when both sides share both the labour and the sweet harvest fairly!",
-        "img": "img/scenes/b3_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b3_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“He who knows the root of the craft reaps the golden grain; he who shares by honest work keeps a friend for life.”",
@@ -503,8 +503,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-042-4",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b4_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b4_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b4_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b4_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Do important things the stone way: What you build with care in sunny weather protects you when the wind rises. 2. A strong house always has room for family: True strength is measured by how warmly we protect and teach those we love.",
     "key_adults": "★ ANTIFRAGILE CITADEL & ALLIANCE: Deep capital/legal foundations combined with proactive mentorship across the entire group.",
     "preface_en": "Classic English fable of 'The Three Little Pigs' (Joseph Jacobs, 1890) paired with architectural resilience principles from ancient Rome and China. In Book IV of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -514,35 +514,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. Three Brothers Set Out to Build Under the Summer Sun ❧",
         "aphorism": "Sheet I. Three Brothers Set Out to Build Under the Summer Sun",
         "text": "Once upon a time three little pig brothers set out into the wide green meadow to build their own homes before autumn arrived. The youngest brother wanted to spend the sunny days dancing and playing the flute, so he tied together a hasty bundle of yellow straw by noon. The middle brother also wished to finish quickly before evening, so he wove a light hut of dry birch twigs and pinecones, laughing at how much time he had saved.",
-        "img": "img/scenes/b4_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b4_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. Patient Stone by Stone: The Elder Brother's Craft ❧",
         "aphorism": "Sheet II. Patient Stone by Stone: The Elder Brother's Craft",
         "text": "Meanwhile, the eldest brother rolled up his sleeves, mixed lime mortar, and laid heavy fieldstones row by row. When his brothers called him to chase butterflies in the clover, he wiped his brow and smiled: 'First I shall lay a deep stone foundation, hang an oak door with iron hinges, and build a warm brick chimney, then we can sing all winter without fear!' Inside his stone house he also set a wide oak table and three cosy beds, knowing a true builder always leaves room for his family.",
-        "img": "img/scenes/b4_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b4_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. The Autumn Gale and the Collapse of Straw and Twigs ❧",
         "aphorism": "Sheet III. The Autumn Gale and the Collapse of Straw and Twigs",
         "text": "When cold November winds swept out of the dark woods, the hungry Grey Wolf appeared at the straw hut. With one deep breath he blew the straw away like dandelion fluff! The frightened youngest brother raced to the twig hut. Yet two fierce gusts from the Wolf scattered the dry branches as well. Side by side, the two younger brothers sprinted up the hill toward their elder brother's stone house.",
-        "img": "img/scenes/b4_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b4_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. Behind the Oak Door: The Fortress That Stood Firm ❧",
         "aphorism": "Sheet IV. Behind the Oak Door: The Fortress That Stood Firm",
         "text": "The eldest brother flung open his heavy oak door, pulled his brothers inside, and slid the wrought-iron bolt into place without a single word of reproach. Outside, the Wolf huffed and puffed until his cheeks ached, not a single stone quivered! Growing desperate, the Wolf climbed onto the tiled roof and slid down the wide chimney, straight toward the hearth where a big copper kettle of water was steaming gently.",
-        "img": "img/scenes/b4_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b4_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. Warm Broth, Three Masons, and the Lesson of the Stone ❧",
         "aphorism": "“A straw roof is built in an hour and lost in a gust; a stone foundation takes patience and shelters the whole family.”",
         "text": "Singeing the tip of his tail on the hot hearth-steam, the Wolf leaped back up the chimney and fled into the deep forest, never to trouble the meadow again. From that day onward, the two younger brothers learned the mason's craft from their elder brother. Together they built a whole stone courtyard, proving that patient foundations and family brotherhood conquer any storm!",
-        "img": "img/scenes/b4_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b4_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“A straw roof is built in an hour and lost in a gust; a stone foundation takes patience and shelters the whole family.”",
@@ -667,8 +667,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-052-7",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b5_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b5_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b5_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b5_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Feed the Goose before asking for the Egg: Care for your sleep, health, learning, and loved ones first, and success will follow naturally. 2. Celebrate daily consistency and gratitude: One small honest step every morning builds a treasure chest over a year.",
     "key_adults": "★ COMPOUNDING GOLDEN FARM: High daily cash flow paired with disciplined reinvestment in product, people, LTV, and founder health.",
     "preface_en": "Aesop's immortal fable 'The Goose That Laid the Golden Eggs' (Perry Index 87) paired with modern endowment and sustainable yield principles. In Book V of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -678,35 +678,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. The White Goose from the Autumn Fair ❧",
         "aphorism": "Sheet I. The White Goose from the Autumn Fair",
         "text": "Once upon a time a country farmer and his wife bought a snow-white goose at the autumn market and made her a warm wicker basket behind the stove, filling her bowl with spring water and golden oats. The next morning, when the farmer looked into the basket, he gasped in wonder: there gleamed a heavy egg of pure shining gold! Every morning thereafter, the gentle bird gifted them one golden egg.",
-        "img": "img/scenes/b5_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b5_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. Growing Prosperity and the Joy of Daily Care ❧",
         "aphorism": "Sheet II. Growing Prosperity and the Joy of Daily Care",
         "text": "As weeks turned into months, the couple repaired their cottage, planted an orchard, and filled an oak chest with coins. As long as they thanked their feathered friend and tended her with kindness, every sunrise brought steady abundance. Neighbours marvelled at how peaceful and prosperous the household had become through patient, grateful stewardship.",
-        "img": "img/scenes/b5_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b5_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. Full Chests and an Ungrateful Heart ❧",
         "aphorism": "Sheet III. Full Chests and an Ungrateful Heart",
         "text": "Yet the fuller their chests grew, the faster gratitude faded from their hearts. One golden egg a day began to seem slow and ordinary to them. They stopped brushing the goose's white feathers and grumbled over their evening ledger: 'Why must we wait twenty-four hours for each egg when we want ten times more right now?'",
-        "img": "img/scenes/b5_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b5_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. Blinded by Impatience: 'All the Gold at Once!' ❧",
         "aphorism": "Sheet IV. Blinded by Impatience: 'All the Gold at Once!'",
         "text": "One night by candlelight the husband whispered with feverish eyes: 'Listen, wife! If this goose lays a golden egg every morning, there must be a whole mountain of solid gold hidden inside her! Why wait day by day when we can take the entire treasure tonight?' Blinded by greed and impatience, they forgot that a living miracle produces golden fruit only while it is alive, healthy, and cherished.",
-        "img": "img/scenes/b5_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b5_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. Bitter Tears Beside an Empty Basket ❧",
         "aphorism": "“Whoever pulls up the apple tree in spring to get all the fruit at once has no orchard in autumn.”",
         "text": "In their reckless rush to seize a year's wealth in a single evening, the impatient owners destroyed their precious bird, only to discover no golden ingots inside at all. Sitting beside the empty wicker basket, they wept bitter tears, leaving every generation a crystal-clear law: cherish the living source, your health, your craft, your family, and your team, and never trade tomorrow's garden for tonight's greed!",
-        "img": "img/scenes/b5_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b5_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“Whoever pulls up the apple tree in spring to get all the fruit at once has no orchard in autumn.”",
@@ -831,8 +831,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-062-0",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b6_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b6_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b6_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b6_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Take the 24-Hour Golden Pause before trading: Never give away something lasting and useful for a five-minute novelty. 2. People come before possessions: A broken cup or a financial mistake is a lesson to solve together, never a reason to hurt a loved one.",
     "key_adults": "★ DISCIPLINED CAPITAL & UNITED HOME: Rigorous asset valuation and board thresholds backed by rock-solid founder/family unity.",
     "preface_en": "Echoes Hans Christian Andersen's 'What the Old Man Does Is Always Right' and classic Silk Road merchant parables on inner peace over vanity. In Book VI of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -842,35 +842,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. The Wealthy Peasant's Journey to the Market Fair ❧",
         "aphorism": "Sheet I. The Wealthy Peasant's Journey to the Market Fair",
         "text": "In a cheerful village lived an affectionate old peasant and his kind-hearted wife, Praskovya. Having more horses in their stable than they needed, the peasant kissed his wife goodbye and rode a fine bay stallion to the town fair to make a profitable trade. Along the high road the morning sun shone brightly, and every passing merchant greeted him with a persuasive smile.",
-        "img": "img/scenes/b6_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b6_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. From Stallion to Cow, from Cow to Piglet ❧",
         "aphorism": "Sheet II. From Stallion to Cow, from Cow to Piglet",
         "text": "Meeting a drover with a sleek dairy cow, the peasant thought how lovely fresh milk would be, and traded his fine horse for the cow without checking the price difference. Half a mile later he traded the cow for a plump piglet, and the piglet for a white gander. At every step the novelty of the next creature enchanted him for five minutes, making him forget the true value of what he was giving away.",
-        "img": "img/scenes/b6_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b6_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. From Goose to Duck, from Duck to aCrooked Awl ❧",
         "aphorism": "Sheet III. From Goose to Duck, from Duck to aCrooked Awl",
         "text": "Further along the road he swapped the gander for a crested hen, the hen for a noisy duck, and finally, fascinated by a tinker's shiny tool, traded the duck for a single crooked cobbler's awl to mend his wife's shoes! Delighted with his bargain, he stopped at a roadside inn to rest before walking home.",
-        "img": "img/scenes/b6_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b6_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. The Inn Wager: 'My Wife Will Scold Me? Never!' ❧",
         "aphorism": "Sheet IV. The Inn Wager: 'My Wife Will Scold Me? Never!'",
         "text": "Hearing his story at the inn, two wealthy merchants laughed aloud: 'Old man, you left home with a stallion and return with a crooked awl! Your wife will surely chase you out with the rolling pin!' The peasant smiled calmly: 'My Praskovya values peace in our home above gold!' The merchants wagered a whole pair of horses and a purse of silver that she would scold him, and rode along to watch through the window.",
-        "img": "img/scenes/b6_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b6_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. 'You Yourself Returned Safe, and That Is Our Greatest Treasure!' ❧",
         "aphorism": "“Count twice at the fair so you don't trade a horse for an awl; hug first at home, for family peace is worth more than gold.”",
         "text": "When Praskovya heard every swap from horse to awl, she threw her arms around her husband's neck: 'Praise be that you returned healthy and cheerful, my dear! What are horses or geese compared to peace and love under our roof?' The astonished merchants paid the wager on the spot, leaving us two golden lessons: count real value carefully in the marketplace, and cherish family harmony above all possessions at home!",
-        "img": "img/scenes/b6_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b6_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“Count twice at the fair so you don't trade a horse for an awl; hug first at home, for family peace is worth more than gold.”",
@@ -995,8 +995,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-072-3",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b7_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b7_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b7_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b7_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Never leave the windowsill without agreement: Always let your parents know where you are going and with whom. 2. Compliments + Secrecy = Step Back!: True friends never ask you to hide things from your family or step onto a 'Fox's nose.'",
     "key_adults": "★ AGILE LEADER WITH AN IRON SHIELD: High market speed and boldness backed by zero-vanity due diligence and strong governance.",
     "preface_en": "Parallels 'The Gingerbread Man' and 'The Johnny-Cake' alongside Sun Tzu's classic warnings against arrogance after early victories. In Book VII of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -1006,35 +1006,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. Fresh from the Oven and Impatient on the Windowsill ❧",
         "aphorism": "Sheet I. Fresh from the Oven and Impatient on the Windowsill",
         "text": "Once upon a time an old Grandfather and Grandmother baked a round, golden, fragrant bun, Kolobok, brushed with melted butter and placed him on the cottage windowsill to cool. Growing impatient with the quiet yard, Kolobok rolled from the sill to the bench, from the bench to the grass, and out through the garden gate onto the winding forest road without telling his family.",
-        "img": "img/scenes/b7_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b7_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. Outrunning the Hare and the Wolf ❧",
         "aphorism": "Sheet II. Outrunning the Hare and the Wolf",
         "text": "Along the path he met the Little Hare and then the Grey Wolf, each ready to gobble him up. Yet Kolobok sang his cheerful boasting song and rolled briskly past their paws before they could blink. With every easy escape his chest swelled with pride: he began to believe that no danger in the world could ever touch him.",
-        "img": "img/scenes/b7_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b7_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. Outrunning the Bear and the Peak of Overconfidence ❧",
         "aphorism": "Sheet III. Outrunning the Bear and the Peak of Overconfidence",
         "text": "When even the clumsy Brown Bear failed to catch him among the pines, Kolobok's confidence turned into dizziness: 'I left Grandfather, I left Grandmother, and I outsmarted every beast in the woods!' He no longer watched the road ahead, sure that his own clever song made him invincible.",
-        "img": "img/scenes/b7_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b7_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. The Fox Who Did Not Threaten, She Praised! ❧",
         "aphorism": "Sheet IV. The Fox Who Did Not Threaten, She Praised!",
         "text": "Then out stepped the sleek Red Fox. Unlike the Wolf and the Bear, she did not growl or bare her teeth. Instead, she smiled sweetly: 'Oh, Kolobok, what a rosy, golden crust you have, and what a marvellous voice! Only I have grown a little hard of hearing, hop onto my nose and sing your song one more time!' Enchanted by the sweet flattery, Kolobok forgot every caution and leaped straight onto the Fox's nose.",
-        "img": "img/scenes/b7_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b7_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. The Baker's Lesson: Stay Connected to Your Safe Base ❧",
         "aphorism": "“A fierce growl puts you on guard, but sweet flattery puts vigilance to sleep.”",
         "text": "In the old tale, that single leap onto the flatterer's nose ends Kolobok's journey. In our family wisdom lesson, we pause right at that threshold to learn the shield that saves every traveller: never roll away without telling your family, never let past victories blind your eyes, and remember that whenever someone praises you too sweetly while asking you to step closer to danger, step back to safe ground immediately!",
-        "img": "img/scenes/b7_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b7_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“A fierce growl puts you on guard, but sweet flattery puts vigilance to sleep.”",
@@ -1159,8 +1159,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-082-6",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b8_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b8_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b8_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b8_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Keep the watch and honour the rule: Self-control at the decisive moment saves three rounds of trouble. 2. Never forget the friend who carried you through the storm: Gratitude and loyalty are the crown of a noble character.",
     "key_adults": "★ TRIUMPHANT STRATEGIC ALLIANCE: World-class mentorship paired with iron operational discipline and protected governance.",
     "preface_en": "Bridges the classic Quest for the Firebird with Brothers Grimm's 'The Golden Bird' (KHM 57) and heroic mentorship epics across East and West. In Book VIII of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -1170,35 +1170,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. Chapter I, The Night Watch and the Feather of the Firebird ❧",
         "aphorism": "Sheet I. Chapter I, The Night Watch and the Feather of the Firebird",
         "text": "In a Tsar's orchard stood a wondrous apple tree bearing golden fruit. Every night the glowing Firebird flew in to peck the apples. While his two older brothers slept through their watch, young Prince Ivan stayed awake till dawn and caught a single blazing tail feather, before setting out across the world to find the bird. Where others yielded to drowsiness, Ivan's vigilance earned him the first spark of a great quest.",
-        "img": "img/scenes/b8_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b8_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. The Pact with the Grey Wolf in the Deep Forest ❧",
         "aphorism": "Sheet II. The Pact with the Grey Wolf in the Deep Forest",
         "text": "Far in the wilderness Ivan met the mighty Grey Wolf, the master of the forest paths. Instead of despairing over his lost horse, Ivan spoke with respect, and the Grey Wolf became his sworn mentor and companion. Carrying Ivan swifter than the wind to the high walled garden, the Wolf gave him one strict rule: 'Take the Firebird itself, Ivan, but do not touch the golden cage, or the alarm strings will ring!'",
-        "img": "img/scenes/b8_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b8_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. Chapter II, The Temptation of the Golden Cage & The Golden Bridle ❧",
         "aphorism": "Sheet III. Chapter II, The Temptation of the Golden Cage & The Golden Bridle",
         "text": "Stepping into the garden, Ivan took the Firebird, yet his eyes gleamed at the jewelled golden cage. Forgetting the Wolf's warning, he reached for the cage, and a hundred bells rang out! Later, at the stables of the Golden-Maned Horse, he made the same mistake by reaching for the diamond bridle. Twice his loyal mentor, the Grey Wolf, had to rescue him from captivity through brilliant strategy and patience.",
-        "img": "img/scenes/b8_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b8_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. Chapter III, Princess Elena and the Envy of the Brothers ❧",
         "aphorism": "Sheet IV. Chapter III, Princess Elena and the Envy of the Brothers",
         "text": "With the Grey Wolf's help, Ivan won the heart of Elena the Fair and returned home with the Golden-Maned Horse and the Firebird. Along the border road, however, his envious older brothers ambushed him while he rested and claimed his hard-won treasures as their own. Even inside one's own family or company, unguarded envy can strike at the final mile.",
-        "img": "img/scenes/b8_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b8_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. The Living Water of Loyalty and Triumph ❧",
         "aphorism": "“He who honours his mentor's word and keeps a loyal friend crosses three kingdoms undefeated.”",
         "text": "True to his word beyond every trial, the Grey Wolf revived Prince Ivan with the Water of Life, exposed the brothers' deceit before the Tsar, and blessed the joyful wedding of Ivan and Elena. Thus the three-chapter epic crowns two laws of greatness: listen strictly to your seasoned mentor's red-lines, and guard your loyal alliance to the very end!",
-        "img": "img/scenes/b8_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b8_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“He who honours his mentor's word and keeps a loyal friend crosses three kingdoms undefeated.”",
@@ -1323,8 +1323,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-092-9",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b9_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b9_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b9_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b9_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Own your duty and fix mistakes immediately: Courage begins the second you stop making excuses and start acting. 2. Respect every honest helper and simple bread: Gratitude for small kindnesses builds a wall of friends around your family.",
     "key_adults": "★ ECOSYSTEM RESCUE ALLIANCE: Instant crisis ownership backed by deep respect and reciprocal support across all partners.",
     "preface_en": "Connects classic woodland rescue folklore with the universal ethic of reciprocity, humility, and servant leadership. In Book IX of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -1334,35 +1334,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. The Parents' Charge and the Forgotten Promise ❧",
         "aphorism": "Sheet I. The Parents' Charge and the Forgotten Promise",
         "text": "Before leaving for the town fair, Father and Mother kissed their daughter Masha and said: 'Guard your little brother Vanya in the courtyard, dear, do not wander off!' They promised to bring her a bright kerchief and gingerbread. Yet no sooner had the wagon disappeared down the road than Masha seated Vanya on the grass under the window and ran off to the end of the street to play games with her friends.",
-        "img": "img/scenes/b9_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b9_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. The Shadow of the Swan Geese and the Proud Refusals ❧",
         "aphorism": "Sheet II. The Shadow of the Swan Geese and the Proud Refusals",
         "text": "Suddenly a flock of white Swan Geese swept down from the clouds, lifted little Vanya on their wide wings, and carried him toward the dark forest! Masha rushed after them in tears. Along the road she met the glowing Stove, the heavy-laden Apple Tree, and the fragrant Milk River with its Kissel Banks. Each offered help if she tasted their humble fare, yet Masha tossed her head proudly: 'At my father's house we don't even eat wheat cakes, let alone plain rye pie or wild apples!', and received no direction.",
-        "img": "img/scenes/b9_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b9_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. Awakening at the Edge of the Deep Woods ❧",
         "aphorism": "Sheet III. Awakening at the Edge of the Deep Woods",
         "text": "Reaching the forest hut where Vanya sat playing with silver apples, Masha realized that pride and excuses could never save her brother. A kind little Woodland Hedgehog showed her the way, and Masha's heart changed completely. Gathering Vanya gently into her arms, she began the race home with the Swan Geese circling high overhead.",
-        "img": "img/scenes/b9_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b9_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. Humility and Care Unlock Every Ally on the Road ❧",
         "aphorism": "Sheet IV. Humility and Care Unlock Every Ally on the Road",
         "text": "When the Swan Geese swooped down along the return path, Masha bowed respectfully to the Milk River and tasted its simple dish, and the river sheltered the children beneath its bank. At the Apple Tree she propped up the heavy branches and thanked it warmly, and the green boughs hid them from sight. At the Stove she gratefully tasted the warm rye pie, and the Stove concealed them safely until the geese flew past.",
-        "img": "img/scenes/b9_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b9_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. Safe in Mother's Arms before Sunset ❧",
         "aphorism": "“Haughty pride closes three doors on the road; a humble word and a helping hand turn every neighbour into a shield.”",
         "text": "Just as Father and Mother's wagon rolled through the village gate with gifts, Masha and little Vanya stepped out onto the clean porch, safe, united, and wiser for life. Thus the tale reveals a golden secret: when we own our mistakes immediately and treat every humble helper with respect, the whole world becomes our shield!",
-        "img": "img/scenes/b9_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b9_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“Haughty pride closes three doors on the road; a humble word and a helping hand turn every neighbour into a shield.”",
@@ -1487,8 +1487,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-102-2",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b10_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b10_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b10_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b10_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Be the first to light the hearth: Do not wait for ideal conditions, start with what is in your hands today. 2. Invite everyone to add one small gift: People love and protect what they helped build with their own hands.",
     "key_adults": "★ ECOSYSTEM CO-CREATION ENGINE: Strong working prototype that aligns multiple partners into a high-trust, high-yield alliance.",
     "preface_en": "World-renowned as 'Stone Soup' across Europe and 'Nail Soup' in Northern traditions, the universal parable of catalytic leadership and co-creation. In Book X of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -1498,35 +1498,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. A Tired Traveller at a Guarded Door ❧",
         "aphorism": "Sheet I. A Tired Traveller at a Guarded Door",
         "text": "One autumn evening a cheerful craftsman walked through a quiet village looking for a warm hearth to rest for the night. He knocked at the cottage of an old hostess whose pantry was full of grain, butter, and salt, yet out of fear of scarcity, she sighed: 'Alas, good traveller, my cupboards are completely bare! I have nothing at all to set on the table.' Instead of arguing or complaining, the craftsman smiled warmly: 'Do not worry, dear hostess! If there is nothing else, I can cook a rich, fragrant porridge out of a clean iron axe head!'",
-        "img": "img/scenes/b10_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b10_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. The Boiling Cauldron and the Spark of Curiosity ❧",
         "aphorism": "Sheet II. The Boiling Cauldron and the Spark of Curiosity",
         "text": "Intrigued by such a marvel, the hostess brought a pot of spring water and a scrubbed axe head without a handle. The craftsman placed the pot over the hearth fire, stirred the bubbling water with a wooden spoon, and tasted a drop with relish. 'How rich and savoury it is turning out!' he declared. 'It will be ready in a moment, though if we had just a tiny handful of millet or oats, it would be fit for a royal feast!'",
-        "img": "img/scenes/b10_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b10_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. A Handful of Grain and a Spoonful of Golden Butter ❧",
         "aphorism": "Sheet III. A Handful of Grain and a Spoonful of Golden Butter",
         "text": "Drawn into the shared venture, the hostess hurried to her storeroom and brought a bowl of golden millet: 'Here, add this so the recipe succeeds!' Five minutes later the craftsman tasted the steaming broth again. 'Simply wonderful! Only a pinch of salt and a small spoon of fresh butter would crown the dish!' Gladly the hostess brought both salt and butter, proud to see the cauldron thickening.",
-        "img": "img/scenes/b10_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b10_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. A Shared Feast Around the Warm Table ❧",
         "aphorism": "Sheet IV. A Shared Feast Around the Warm Table",
         "text": "Soon the cottage was filled with the aroma of hearty, buttery porridge. Sitting down together with two wooden spoons, the hostess marvelled: 'I never dreamed such delicious porridge could be made from an iron axe! Only tell me, when shall we eat the axe itself?' The craftsman laughed kindly: 'The axe has not quite softened yet, I shall carry it with me and finish cooking it at the next village!'",
-        "img": "img/scenes/b10_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b10_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. The Catalyst of Abundance: How Initiative Unlocks Trust ❧",
         "aphorism": "“Where hearts are closed, even a full pantry feels empty; where one cheerful hand lights the fire, everyone brings grain to the pot.”",
         "text": "Both the hostess and the traveller finished their supper warm, cheerful, and grateful. Nobody was poorer; instead, a frozen pantry had become a joyful feast. From this world-famous 'Stone Soup' parable, families and leaders learn a powerful law: never beg for a finished banquet, light the hearth first, put a working prototype on the fire, and invite everyone to contribute one small gift to the shared pot!",
-        "img": "img/scenes/b10_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b10_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“Where hearts are closed, even a full pantry feels empty; where one cheerful hand lights the fire, everyone brings grain to the pot.”",
@@ -1651,8 +1651,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-112-5",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b11_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b11_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b11_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b11_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Look through your guest's eyes: Before offering help or a gift, ask yourself what vessel fits the other person's beak. 2. Teach by kindness, not by payback: Instead of mirroring a mistake with a tall pitcher, show how a true host sets the table.",
     "key_adults": "★ CUSTOMER-CENTRIC WIN-WIN: High core value delivered in a frictionless format tailored to the partner's workflow.",
     "preface_en": "Aesop's classic fable 'The Fox and the Stork' (Phaedrus) on empathy, user-centric design, and setting a table where every partner thrives. In Book XI of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -1662,35 +1662,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. A Warm Invitation in the Sunny Birch Grove ❧",
         "aphorism": "Sheet I. A Warm Invitation in the Sunny Birch Grove",
         "text": "One sunny morning the Red Fox met the tall Crane in a blooming woodland meadow. Wishing to celebrate their new friendship, the Fox bowed politely and said: 'Come to my cottage for dinner today, dear gossip! I shall treat you to my finest dish!' Glad at heart, the Crane brushed his feathers and walked across the meadow to his neighbour's porch.",
-        "img": "img/scenes/b11_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b11_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. Semolina Porridge on a Flat Carved Plate ❧",
         "aphorism": "Sheet II. Semolina Porridge on a Flat Carved Plate",
         "text": "For dinner the Fox cooked fragrant semolina porridge with golden butter, and spread it in a thin layer across a wide, flat plate: 'Eat heartily, dear guest! I cooked it myself!' The tall Crane bowed his long beak: knock, knock, knock against the flat porcelain! Try as he might, not a single grain entered his beak, while the Fox licked the entire plate clean in a minute.",
-        "img": "img/scenes/b11_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b11_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. Cold Okroshka in a Tall Narrow Pitcher ❧",
         "aphorism": "Sheet III. Cold Okroshka in a Tall Narrow Pitcher",
         "text": "Thanking the Fox politely, the Crane invited her to dine at his cottage the very next day. In the morning he prepared aromatic herb soup, and poured it into a tall clay pitcher with a narrow neck. Now the Fox walked round and round the pitcher, sniffing the delicious broth, licking the glazed clay neck, and tilting her head, yet her muzzle could not reach a single drop while the Crane dined with ease through his long beak.",
-        "img": "img/scenes/b11_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b11_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. The Empty Walk Home and the Mirror of Retaliation ❧",
         "aphorism": "Sheet IV. The Empty Walk Home and the Mirror of Retaliation",
         "text": "Returning home hungry, both neighbours realized how foolishly they had wasted two fine dinners. Where each host thought only of their own shape, or of paying back yesterday's slight, even a generous meal turned into an insult. In the old proverb they parted ways forever, yet wise hosts and leaders know how to turn the table around!",
-        "img": "img/scenes/b11_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b11_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. The Table of Two Vessels: The Secret of True Empathy ❧",
         "aphorism": "“A feast served only for yourself leaves your guest hungry; a table set with empathy turns a neighbour into a friend for life.”",
         "text": "When true friends set the table, they set a wide bowl for the Fox and a tall pitcher for the Crane! Understanding how the other person is built, what brings joy to a child, a spouse, or a client, is the golden key that turns every meeting into a lifelong alliance.",
-        "img": "img/scenes/b11_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b11_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“A feast served only for yourself leaves your guest hungry; a table set with empathy turns a neighbour into a friend for life.”",
@@ -1815,8 +1815,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-122-8",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b12_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b12_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b12_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b12_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Match your roof to the weight it carries: Before taking on a heavy new load, strengthen your schedule, sleep, and skills. 2. If a tower falls, build a better one together: Mistakes are not the end, when friends unite their strengths, the new house stands ten times stronger.",
     "key_adults": "★ SCALABLE ENTERPRISE TEREM: Ambitious growth and heavyweight alliances matched with pre-built architectural capacity.",
     "preface_en": "Classic woodland cooperative parable illustrating modular architecture, capacity planning, and governance before scaling. In Book XII of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -1826,35 +1826,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. The Little Carved House in the Sunny Glade ❧",
         "aphorism": "Sheet I. The Little Carved House in the Sunny Glade",
         "text": "In the middle of a green forest clearing stood a neat little wooden house, a carved Teremok. Past ran the Little Field Mouse, stopped at the painted porch, and knocked: 'Little house, little house! Who lives in the Teremok?' Hearing only the rustle of birch leaves, the Little Mouse moved in, swept the floorboards, and lit the warm stove.",
-        "img": "img/scenes/b12_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b12_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. A Growing Team of Talents Under One Roof ❧",
         "aphorism": "Sheet II. A Growing Team of Talents Under One Roof",
         "text": "Soon hopped up the Croaking Frog, followed by the Swift Hare, the Golden Fox, and the Grey Wolf. To every knock the hosts asked warmly: 'Who are you, and what craft do you bring to our home?' One fetched spring water, one baked fragrant pies, one chopped dry firewood, and one guarded the gate, together their songs echoed across the glade.",
-        "img": "img/scenes/b12_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b12_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. Out Comes the Mighty Bear from the Pine Woods ❧",
         "aphorism": "Sheet III. Out Comes the Mighty Bear from the Pine Woods",
         "text": "Then out lumbered the huge Brown Bear! Seeing the cheerful house, he roared: 'Teremok, Teremok! Let me live with you too!' The woodland friends looked out the window: their hearts were generous and nobody wanted to offend the Bear, yet the little roof was built only for small creatures.",
-        "img": "img/scenes/b12_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b12_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. The Heavy Climb onto the Roof and the Loud Crack ❧",
         "aphorism": "Sheet IV. The Heavy Climb onto the Roof and the Loud Crack",
         "text": "Instead of measuring the beams or building a wide ground-floor wing for their giant guest, the friends sighed, 'Climb up on the roof then, Master Bear!' With a heavy thud the Bear sat upon the carved ridgepole, crack! creak!, the little Teremok tilted and collapsed into a pile of logs, while all the animals leaped safely onto the soft moss!",
-        "img": "img/scenes/b12_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b12_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. Building the New Spacious Terem Together ❧",
         "aphorism": "“A welcoming heart gathers friends; smart planning and shared work build a roof strong enough for all.”",
         "text": "Nobody cried or blamed a neighbour. Instead, the Bear hauled mighty cedar logs, the Wolf and Fox sawed the planks, the Hare and Frog laid the roof, and the Little Mouse measured every corner. Before autumn arrived, they raised a new, spacious two-story Terem, ten times stronger than the first, with a wide hall for the Bear and warm rooms for every friend!",
-        "img": "img/scenes/b12_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b12_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“A welcoming heart gathers friends; smart planning and shared work build a roof strong enough for all.”",
@@ -1979,8 +1979,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-132-1",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b13_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b13_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b13_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b13_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Gratitude is the guardian of happiness: Before asking for the next wish, thank life and your family for what already shines in your home. 2. True kindness has a firm backbone: Loving someone means having the courage to stop them when anger or greed clouds their eyes.",
     "key_adults": "★ ENDURING STRATEGIC PROSPERITY: High mutual value, disciplined risk ceiling, and a leader who protects the alliance from greed.",
     "preface_en": "Parallels the Brothers Grimm tale 'The Fisherman and His Wife' (KHM 19) on gratitude, governance boundaries, and knowing when enough is abundance. In Book XIII of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -1990,35 +1990,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. The Blue Sea and theMerciful Catch ❧",
         "aphorism": "Sheet I. The Blue Sea and theMerciful Catch",
         "text": "Beside the deep blue sea lived an old Fisherman and his wife in a humble cottage. For thirty years and three the old man cast his net, until one bright morning he drew in a single wondrous Golden Fish that spoke in a human voice: 'Release me into the blue sea, kind Elder! I shall pay you whatever ransom your heart desires.' Untouched by greed, the gentle Fisherman blessed the living marvel and let her swim free without asking for a single copper coin.",
-        "img": "img/scenes/b13_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b13_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. The New Oak Trough and the First Escalation ❧",
         "aphorism": "Sheet II. The New Oak Trough and the First Escalation",
         "text": "When the Fisherman's wife heard of the miracle, she scolded him fiercely: 'You simpleton! Go back and ask at least for a new wooden wash-trough, ours is cracked in two!' The Golden Fish rippled to the shore and granted the new oak trough immediately. Yet instead of thanking the sea, the wife grew even angrier and demanded a carved timber house.",
-        "img": "img/scenes/b13_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b13_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. Noble Boyarina and Sovereign Tsarina ❧",
         "aphorism": "Sheet III. Noble Boyarina and Sovereign Tsarina",
         "text": "No sooner had the Golden Fish raised a fine timber manor than the wife demanded to become a high noblewoman in sable furs, driving her own husband to the stables. A week later she commanded him to bow to the fish again and make her a sovereign Tsarina! At every step the sea darkened from azure to stormy green, while the Fisherman walked with bowed head, never daring to utter a firm 'Stop!'",
-        "img": "img/scenes/b13_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b13_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. The Black Storm: 'Make Me Ruler of the Sea!' ❧",
         "aphorism": "Sheet IV. The Black Storm: 'Make Me Ruler of the Sea!'",
         "text": "Seated in royal gold yet still tormented by bottomless envy, the wife sent the old man into a howling black tempest with her final, blind command: 'I refuse to be a mere Tsarina! Make me Ruler of the Oceans, and let the Golden Fish herself serve at my beck and call!' When the Fisherman repeated these words to the roaring waves, the Golden Fish said nothing, she only flicked her golden tail and vanished into the deep.",
-        "img": "img/scenes/b13_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b13_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. Silence on the Shore and the Law of Wise Measure ❧",
         "aphorism": "“He who knows measure and gratitude lives in a palace of peace; he who demands the whole ocean wakes beside a broken trough.”",
         "text": "Returning from the beach, the old man saw neither palace nor guards: before the old cottage sat his wife beside the same cracked wooden trough. Across centuries this masterpiece teaches both families and leaders two immortal truths: ingratitude turns even a palace into a prison, and kindness without a firm backbone surrenders the helm to ruin!",
-        "img": "img/scenes/b13_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b13_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“He who knows measure and gratitude lives in a palace of peace; he who demands the whole ocean wakes beside a broken trough.”",
@@ -2143,8 +2143,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-142-4",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b14_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b14_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b14_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b14_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Never be afraid to say 'I want to understand': Asking an honest question is the mark of a strong, independent mind. 2. Trust verified facts over loud crowd pressure: Even if ten people call an empty frame gold, look with your own honest eyes.",
     "key_adults": "★ RADICAL CLARITY & REALITY SHIELD: Full safety to ask hard questions paired with strict, fact-based verification of every project.",
     "preface_en": "Hans Christian Andersen's 'The Emperor's New Clothes' (1837), the timeless global touchstone for psychological safety and candid truth-telling. In Book XIV of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -2154,35 +2154,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. The Vain Emperor and the Two Clever Impostors ❧",
         "aphorism": "Sheet I. The Vain Emperor and the Two Clever Impostors",
         "text": "In a grand capital lived an Emperor who cared more for splendid new robes than for inspecting his realm. One day two smooth-talking swindlers arrived at court, calling themselves master weavers. They boasted that they could weave a magical royal cloth of dazzling colours, with one extraordinary property: it would be completely invisible to anyone who was unfit for their office or hopelessly foolish!",
-        "img": "img/scenes/b14_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b14_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. Empty Looms and the Fear of Speaking First ❧",
         "aphorism": "Sheet II. Empty Looms and the Fear of Speaking First",
         "text": "Receiving bags of pure silk and finest gold thread, the impostors hid the treasure in their satchels and clicked their shuttles upon completely empty looms till midnight. When the Emperor sent his most trusted old Minister to inspect the work, the Minister opened his eyes wide, and saw nothing at all! Yet terrified of being called unfit for his post, he adjusted his spectacles and exclaimed: 'What a magnificent pattern! What noble colours!'",
-        "img": "img/scenes/b14_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b14_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. The Court Chorus of Self-Deception ❧",
         "aphorism": "Sheet III. The Court Chorus of Self-Deception",
         "text": "One after another, officials, chamberlains, and finally the Emperor himself stood before the empty wooden frames. Each thought in horror: 'Am I really blind or foolish? Nobody must ever suspect it!' And so the Emperor himself applauded the empty air, awarded the swindlers royal medals, and stood before the mirror while they pretended to fasten a grand ceremonial train over his long royal tunic.",
-        "img": "img/scenes/b14_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b14_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. The Grand Procession and One Clear Voice ❧",
         "aphorism": "Sheet IV. The Grand Procession and One Clear Voice",
         "text": "Under a velvet canopy the Emperor marched down the main avenue while thousands of citizens praised the invisible mantle, each afraid to disagree with their neighbour. Suddenly, in the quiet between the drums, a little boy on his father's shoulders pointed a finger and rang out like a silver bell: 'Look! The Emperor has no new robe on at all!'",
-        "img": "img/scenes/b14_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b14_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. The Awakening of the Crowd and the Shield of Truth ❧",
         "aphorism": "“A hundred flatterers bow to an empty loom; one honest voice brings back the light of truth.”",
         "text": "In a single breath the spell of fear shattered across the square: 'The child speaks the truth, there is nothing on the loom!' From Hans Christian Andersen's immortal 1837 tale, every family and board of directors learns the ultimate law of clarity: wherever people are afraid to ask an honest question, illusion rules the palace; wherever truth is welcomed with a smile, no impostor can ever deceive you!",
-        "img": "img/scenes/b14_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b14_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“A hundred flatterers bow to an empty loom; one honest voice brings back the light of truth.”",
@@ -2307,8 +2307,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-152-7",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b15_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b15_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b15_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b15_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Brotherhood is bigger than a millimetre of cheese: Never let a tiny comparison spoil the warmth between family members. 2. Practice the 'One Cuts, One Chooses' rule: Fair rules turn arguments into instant agreement.",
     "key_adults": "★ PROTECTED CO-FOUNDER ALLIANCE:  Focus on growing the whole wheel of cheese backed by instant, self-enforcing fair-split rules.",
     "preface_en": "Classic woodland fable on fair division, independent arbitration, and preventing dispute costs from consuming the shared pie. In Book XV of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -2318,35 +2318,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. Two Bear Cubs Set Out Into the Wide World ❧",
         "aphorism": "Sheet I. Two Bear Cubs Set Out Into the Wide World",
         "text": "Beyond the glass mountains and silk meadows, in a fragrant pine forest lived a Mother Bear with her two little cubs. When the brothers grew tall enough to explore the world, they hugged their mother goodbye and walked side by side down the sunny woodland road, promising never to part or quarrel. All day they marched shoulder to shoulder until their tummies began to rumble.",
-        "img": "img/scenes/b15_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b15_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. The Round Golden Wheel of Cheese ❧",
         "aphorism": "Sheet II. The Round Golden Wheel of Cheese",
         "text": "Suddenly, beside a mossy stone, the brothers found a big, round, fragrant wheel of forest cheese! They wanted to divide it cleanly in half, yet greed whispered in both ears: each cub was terrified that the other brother might get a crumb more than himself. They growled and argued over the cheese until their voices echoed through the pines.",
-        "img": "img/scenes/b15_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b15_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. Enter the 'Fair Judge': The Sly Red Fox ❧",
         "aphorism": "Sheet III. Enter the 'Fair Judge': The Sly Red Fox",
         "text": "Up trotted the sleek Red Fox with a sweet, sympathetic smile: 'Why are you arguing, young gentlemen? Let me divide your cheese with absolute justice so neither brother is offended!' Handing the prize to the outsider, the cubs watched as the Fox broke the cheese in two, intentionally making one half noticeably larger than the other!",
-        "img": "img/scenes/b15_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b15_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. Bite by Bite: 'Equalizing' the Shares ❧",
         "aphorism": "Sheet IV. Bite by Bite: 'Equalizing' the Shares",
         "text": "Both cubs shouted at once: 'That piece is bigger!' The Fox nodded gravely: 'Quiet, boys! I know my duty as arbitrator!', and took a huge bite out of the larger half! Now the second half was bigger. So the Fox bit the second half, then the first, then the second again, while the mesmerized brothers watched their golden wheel of cheese vanish down the mediator's throat.",
-        "img": "img/scenes/b15_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b15_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. Two Tiny Crumbs and the Golden Formula of Brotherhood ❧",
         "aphorism": "“Where brothers fight over a crumb, the Fox eats the whole wheel of cheese; where one cuts and the other chooses, peace reigns at the table.”",
         "text": "When only two tiny crumbs remained, the full Fox handed them to the cubs with a bow: 'Though small, they are now equal to the millimetre! Enjoy your meal!' Looking at their crumbs, the two brothers burst out laughing at their own folly, hugged each other tightly, and learned the greatest negotiation law on earth: never hand a family dispute to a hungry Fox, use the magic rule 'One cuts, the other chooses first!'",
-        "img": "img/scenes/b15_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b15_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“Where brothers fight over a crumb, the Fox eats the whole wheel of cheese; where one cuts and the other chooses, peace reigns at the table.”",
@@ -2471,8 +2471,8 @@ window.JUPITER_BOOKS_DATA = [
     "isbn_mgmt": "978-9967-00-162-0",
     "price_digital_usd": "$14.99",
     "price_print_usd": "$29.99",
-    "cover_fam": "img/covers/b16_fam.jpg?v=20261027v4",
-    "cover_mgmt": "img/covers/b16_mgmt.jpg?v=20261027v4",
+    "cover_fam": "img/covers/b16_fam.jpg?v=20261027v5",
+    "cover_mgmt": "img/covers/b16_mgmt.jpg?v=20261027v5",
     "key_kids": "1. Value real daily usefulness over hollow glitter: What nourishes, teaches, and warms your family every day is worth more than a fragile showpiece. 2. Peace in the home is worth more than any broken cup: When a 'mouse's tail' knocks something down, comfort your loved ones first and fix it together.",
     "key_adults": "★ ANTIFRAGILE VALUE FACTORY: Protected living core ('Speckled Hen') delivering simple, high-utility products with full redundancy.",
     "preface_en": "Universal parable of the Golden Shell and the Living Hen, teaching antifragility, daily utility, and protecting the core creative engine. In Book XVI of the Jupiter Wisdom Tales series, children (6+) discover the living moral through five illustrated scenes and the 'Three Roads' game, while parents and executives (12+) map the conflict across two clear axes in the 2×2 Decision Matrix.",
@@ -2482,35 +2482,35 @@ window.JUPITER_BOOKS_DATA = [
         "heading": "❧ Sheet I. The Quiet Cottage and the Wondrous Golden Egg ❧",
         "aphorism": "Sheet I. The Quiet Cottage and the Wondrous Golden Egg",
         "text": "Once upon a time there lived an old Grandfather and an old Grandmother, and they had a faithful Speckled Hen named Ryaba. Every morning she clucked cheerfully in her warm nest and laid fresh eggs for the family table. Then one bright morning, to their amazement, the Speckled Hen laid not an ordinary white egg, but a heavy, glittering egg of solid gold!",
-        "img": "img/scenes/b16_s1.jpg?v=20261027v4"
+        "img": "img/scenes/b16_s1.jpg?v=20261027v5"
       },
       {
         "scene": 2,
         "heading": "❧ Sheet II. Striking the Gold: When a Trophy Cannot Feed the Home ❧",
         "aphorism": "Sheet II. Striking the Gold: When a Trophy Cannot Feed the Home",
         "text": "Dazzled by the golden marvel, Grandfather placed it on the oak table and struck it, tap, tap!, he could not crack it. Grandmother struck it with all her might, she could not crack it either! For though the golden egg shone like a royal treasure, its hard shell could neither be opened nor cooked for breakfast. It sat on the very edge of the table, gleaming, useless, and perilous.",
-        "img": "img/scenes/b16_s2.jpg?v=20261027v4"
+        "img": "img/scenes/b16_s2.jpg?v=20261027v5"
       },
       {
         "scene": 3,
         "heading": "❧ Sheet III. The Tiny Mouse's Tail and the Shattered Illusion ❧",
         "aphorism": "Sheet III. The Tiny Mouse's Tail and the Shattered Illusion",
         "text": "Just then a little Grey Mouse scampered across the kitchen bench, brushed the edge of the table with the tip of her tail, and the heavy golden egg rolled off and shattered on the floorboards! Grandfather wept, and Grandmother wept bitterly, grieving over the sudden loss of the glittering prize they themselves had been trying to break a moment before.",
-        "img": "img/scenes/b16_s3.jpg?v=20261027v4"
+        "img": "img/scenes/b16_s3.jpg?v=20261027v5"
       },
       {
         "scene": 4,
         "heading": "❧ Sheet IV. The Gentle Voice of the Speckled Hen ❧",
         "aphorism": "Sheet IV. The Gentle Voice of the Speckled Hen",
         "text": "Seeing her masters in tears over the broken shards, the living Speckled Hen hopped onto the bench and spoke with calm, comforting warmth: 'Do not weep, Grandfather! Do not weep, Grandmother! I shall lay you a new egg, not a cold golden one, but a simple, living, wholesome egg to nourish your home every day!'",
-        "img": "img/scenes/b16_s4.jpg?v=20261027v4"
+        "img": "img/scenes/b16_s4.jpg?v=20261027v5"
       },
       {
         "scene": 5,
         "heading": "❧ Sheet V. Warm Morning Bread and the Wisdom of Living Value ❧",
         "aphorism": "“A fragile golden shell brings tears at the first bump; a living craft and a calm heart feed the family every morning.”",
         "text": "Grandfather and Grandmother dried their tears, swept up the fragile shards, and smiled over a warm breakfast around their samovar. Thus the oldest nursery parable reveals a profound secret for both parents and leaders: never weep over a fragile status trophy shattered by a mouse's tail, protect the living Speckled Hen and prize simple, reliable daily creation above hollow gold!",
-        "img": "img/scenes/b16_s5.jpg?v=20261027v4"
+        "img": "img/scenes/b16_s5.jpg?v=20261027v5"
       }
     ],
     "story_secret": "“A fragile golden shell brings tears at the first bump; a living craft and a calm heart feed the family every morning.”",
